@@ -1,0 +1,4319 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document>
+  <Engineering version="V17" />
+  <DocumentInfo>
+    <Created>2023-07-20T16:54:09.9633399Z</Created>
+    <ExportSetting>WithDefaults</ExportSetting>
+    <InstalledProducts>
+      <Product>
+        <DisplayName>Totally Integrated Automation Portal</DisplayName>
+        <DisplayVersion>V17</DisplayVersion>
+      </Product>
+      <OptionPackage>
+        <DisplayName>TIA Portal Openness</DisplayName>
+        <DisplayVersion>V17</DisplayVersion>
+      </OptionPackage>
+      <OptionPackage>
+        <DisplayName>TIA Portal Version Control Interface</DisplayName>
+        <DisplayVersion>V17</DisplayVersion>
+      </OptionPackage>
+      <Product>
+        <DisplayName>STEP 7 Professional</DisplayName>
+        <DisplayVersion>V17</DisplayVersion>
+      </Product>
+      <OptionPackage>
+        <DisplayName>STEP 7 Safety</DisplayName>
+        <DisplayVersion>V17</DisplayVersion>
+      </OptionPackage>
+      <Product>
+        <DisplayName>WinCC Professional</DisplayName>
+        <DisplayVersion>V17</DisplayVersion>
+      </Product>
+    </InstalledProducts>
+  </DocumentInfo>
+  <SW.Blocks.FB ID="0">
+    <AttributeList>
+      <AutoNumber>false</AutoNumber>
+      <HeaderAuthor />
+      <HeaderFamily />
+      <HeaderName />
+      <HeaderVersion>0.1</HeaderVersion>
+      <Interface><Sections xmlns="http://www.siemens.com/automation/Openness/SW/Interface/v5">
+  <Section Name="Input" />
+  <Section Name="Output" />
+  <Section Name="InOut" />
+  <Section Name="Static">
+    <Member Name="Operation data number" Datatype="&quot;Deconcatenate UDInt into two UInt&quot;" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute></AttributeList><Sections><Section Name="Input" /><Section Name="Output"><Member Name="Register_L" Datatype="UInt" /><Member Name="Register_H" Datatype="UInt" /></Section><Section Name="InOut" /><Section Name="Static"><Member Name="Register" Datatype="UDInt" /></Section></Sections></Member>
+    <Member Name="Operation type" Datatype="&quot;Deconcatenate UDInt into two UInt&quot;" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute></AttributeList><Sections><Section Name="Input" /><Section Name="Output"><Member Name="Register_L" Datatype="UInt" /><Member Name="Register_H" Datatype="UInt" /></Section><Section Name="InOut" /><Section Name="Static"><Member Name="Register" Datatype="UDInt" /></Section></Sections></Member>
+    <Member Name="Position" Datatype="&quot;Deconcatenate UDInt into two UInt&quot;" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute></AttributeList><Sections><Section Name="Input" /><Section Name="Output"><Member Name="Register_L" Datatype="UInt" /><Member Name="Register_H" Datatype="UInt" /></Section><Section Name="InOut" /><Section Name="Static"><Member Name="Register" Datatype="UDInt" /></Section></Sections></Member>
+    <Member Name="Speed" Datatype="&quot;Deconcatenate UDInt into two UInt&quot;" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute></AttributeList><Sections><Section Name="Input" /><Section Name="Output"><Member Name="Register_L" Datatype="UInt" /><Member Name="Register_H" Datatype="UInt" /></Section><Section Name="InOut" /><Section Name="Static"><Member Name="Register" Datatype="UDInt" /></Section></Sections></Member>
+    <Member Name="Starting changing rate" Datatype="&quot;Deconcatenate UDInt into two UInt&quot;" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute></AttributeList><Sections><Section Name="Input" /><Section Name="Output"><Member Name="Register_L" Datatype="UInt" /><Member Name="Register_H" Datatype="UInt" /></Section><Section Name="InOut" /><Section Name="Static"><Member Name="Register" Datatype="UDInt" /></Section></Sections></Member>
+    <Member Name="Stopping deceleration" Datatype="&quot;Deconcatenate UDInt into two UInt&quot;" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute></AttributeList><Sections><Section Name="Input" /><Section Name="Output"><Member Name="Register_L" Datatype="UInt" /><Member Name="Register_H" Datatype="UInt" /></Section><Section Name="InOut" /><Section Name="Static"><Member Name="Register" Datatype="UDInt" /></Section></Sections></Member>
+    <Member Name="Operating current" Datatype="&quot;Deconcatenate UDInt into two UInt&quot;" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute></AttributeList><Sections><Section Name="Input" /><Section Name="Output"><Member Name="Register_L" Datatype="UInt" /><Member Name="Register_H" Datatype="UInt" /></Section><Section Name="InOut" /><Section Name="Static"><Member Name="Register" Datatype="UDInt" /></Section></Sections></Member>
+    <Member Name="Operation trigger" Datatype="&quot;Deconcatenate UDInt into two UInt&quot;" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute></AttributeList><Sections><Section Name="Input" /><Section Name="Output"><Member Name="Register_L" Datatype="UInt" /><Member Name="Register_H" Datatype="UInt" /></Section><Section Name="InOut" /><Section Name="Static"><Member Name="Register" Datatype="UDInt" /></Section></Sections></Member>
+    <Member Name="Forwarding destination" Datatype="&quot;Deconcatenate UDInt into two UInt&quot;" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute></AttributeList><Sections><Section Name="Input" /><Section Name="Output"><Member Name="Register_L" Datatype="UInt" /><Member Name="Register_H" Datatype="UInt" /></Section><Section Name="InOut" /><Section Name="Static"><Member Name="Register" Datatype="UDInt" /></Section></Sections></Member>
+    <Member Name="Alarm reset" Datatype="&quot;Deconcatenate UDInt into two UInt&quot;" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute></AttributeList><Sections><Section Name="Input" /><Section Name="Output"><Member Name="Register_L" Datatype="UInt" /><Member Name="Register_H" Datatype="UInt" /></Section><Section Name="InOut" /><Section Name="Static"><Member Name="Register" Datatype="UDInt" /></Section></Sections></Member>
+    <Member Name="Clear alarm history" Datatype="&quot;Deconcatenate UDInt into two UInt&quot;" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute></AttributeList><Sections><Section Name="Input" /><Section Name="Output"><Member Name="Register_L" Datatype="UInt" /><Member Name="Register_H" Datatype="UInt" /></Section><Section Name="InOut" /><Section Name="Static"><Member Name="Register" Datatype="UDInt" /></Section></Sections></Member>
+    <Member Name="Clear comm history" Datatype="&quot;Deconcatenate UDInt into two UInt&quot;" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute></AttributeList><Sections><Section Name="Input" /><Section Name="Output"><Member Name="Register_L" Datatype="UInt" /><Member Name="Register_H" Datatype="UInt" /></Section><Section Name="InOut" /><Section Name="Static"><Member Name="Register" Datatype="UDInt" /></Section></Sections></Member>
+    <Member Name="Clear monitor alarm history" Datatype="&quot;Deconcatenate UDInt into two UInt&quot;" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute></AttributeList><Sections><Section Name="Input" /><Section Name="Output"><Member Name="Register_L" Datatype="UInt" /><Member Name="Register_H" Datatype="UInt" /></Section><Section Name="InOut" /><Section Name="Static"><Member Name="Register" Datatype="UDInt" /></Section></Sections></Member>
+    <Member Name="Clear comm history_1" Datatype="&quot;Deconcatenate UDInt into two UInt&quot;" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute></AttributeList><Sections><Section Name="Input" /><Section Name="Output"><Member Name="Register_L" Datatype="UInt" /><Member Name="Register_H" Datatype="UInt" /></Section><Section Name="InOut" /><Section Name="Static"><Member Name="Register" Datatype="UDInt" /></Section></Sections></Member>
+    <Member Name="Monitor present alarm" Datatype="&quot;Concatenate two UInt into one UDInt&quot;" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute></AttributeList><Sections><Section Name="Input"><Member Name="Register low" Datatype="UInt" /><Member Name="Register high" Datatype="UInt" /></Section><Section Name="Output" /><Section Name="InOut" /><Section Name="Static"><Member Name="Register" Datatype="UDInt" /></Section></Sections></Member>
+    <Member Name="Monitor alarm history 1" Datatype="&quot;Concatenate two UInt into one UDInt&quot;" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute></AttributeList><Sections><Section Name="Input"><Member Name="Register low" Datatype="UInt" /><Member Name="Register high" Datatype="UInt" /></Section><Section Name="Output" /><Section Name="InOut" /><Section Name="Static"><Member Name="Register" Datatype="UDInt" /></Section></Sections></Member>
+    <Member Name="Monitor alarm history 2" Datatype="&quot;Concatenate two UInt into one UDInt&quot;" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute></AttributeList><Sections><Section Name="Input"><Member Name="Register low" Datatype="UInt" /><Member Name="Register high" Datatype="UInt" /></Section><Section Name="Output" /><Section Name="InOut" /><Section Name="Static"><Member Name="Register" Datatype="UDInt" /></Section></Sections></Member>
+    <Member Name="Monitor alarm history 3" Datatype="&quot;Concatenate two UInt into one UDInt&quot;" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute></AttributeList><Sections><Section Name="Input"><Member Name="Register low" Datatype="UInt" /><Member Name="Register high" Datatype="UInt" /></Section><Section Name="Output" /><Section Name="InOut" /><Section Name="Static"><Member Name="Register" Datatype="UDInt" /></Section></Sections></Member>
+    <Member Name="Monitor alarm history 4" Datatype="&quot;Concatenate two UInt into one UDInt&quot;" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute></AttributeList><Sections><Section Name="Input"><Member Name="Register low" Datatype="UInt" /><Member Name="Register high" Datatype="UInt" /></Section><Section Name="Output" /><Section Name="InOut" /><Section Name="Static"><Member Name="Register" Datatype="UDInt" /></Section></Sections></Member>
+    <Member Name="Monitor alarm history 5" Datatype="&quot;Concatenate two UInt into one UDInt&quot;" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute></AttributeList><Sections><Section Name="Input"><Member Name="Register low" Datatype="UInt" /><Member Name="Register high" Datatype="UInt" /></Section><Section Name="Output" /><Section Name="InOut" /><Section Name="Static"><Member Name="Register" Datatype="UDInt" /></Section></Sections></Member>
+    <Member Name="Monitor present communication error" Datatype="&quot;Concatenate two UInt into one UDInt&quot;" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute></AttributeList><Sections><Section Name="Input"><Member Name="Register low" Datatype="UInt" /><Member Name="Register high" Datatype="UInt" /></Section><Section Name="Output" /><Section Name="InOut" /><Section Name="Static"><Member Name="Register" Datatype="UDInt" /></Section></Sections></Member>
+    <Member Name="Monitor communication error history 1" Datatype="&quot;Concatenate two UInt into one UDInt&quot;" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute></AttributeList><Sections><Section Name="Input"><Member Name="Register low" Datatype="UInt" /><Member Name="Register high" Datatype="UInt" /></Section><Section Name="Output" /><Section Name="InOut" /><Section Name="Static"><Member Name="Register" Datatype="UDInt" /></Section></Sections></Member>
+    <Member Name="Monitor communication error history 2" Datatype="&quot;Concatenate two UInt into one UDInt&quot;" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute></AttributeList><Sections><Section Name="Input"><Member Name="Register low" Datatype="UInt" /><Member Name="Register high" Datatype="UInt" /></Section><Section Name="Output" /><Section Name="InOut" /><Section Name="Static"><Member Name="Register" Datatype="UDInt" /></Section></Sections></Member>
+    <Member Name="Monitor communication error history 3" Datatype="&quot;Concatenate two UInt into one UDInt&quot;" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute></AttributeList><Sections><Section Name="Input"><Member Name="Register low" Datatype="UInt" /><Member Name="Register high" Datatype="UInt" /></Section><Section Name="Output" /><Section Name="InOut" /><Section Name="Static"><Member Name="Register" Datatype="UDInt" /></Section></Sections></Member>
+    <Member Name="Monitor communication error history 4" Datatype="&quot;Concatenate two UInt into one UDInt&quot;" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute></AttributeList><Sections><Section Name="Input"><Member Name="Register low" Datatype="UInt" /><Member Name="Register high" Datatype="UInt" /></Section><Section Name="Output" /><Section Name="InOut" /><Section Name="Static"><Member Name="Register" Datatype="UDInt" /></Section></Sections></Member>
+    <Member Name="Monitor communication error history 5" Datatype="&quot;Concatenate two UInt into one UDInt&quot;" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute></AttributeList><Sections><Section Name="Input"><Member Name="Register low" Datatype="UInt" /><Member Name="Register high" Datatype="UInt" /></Section><Section Name="Output" /><Section Name="InOut" /><Section Name="Static"><Member Name="Register" Datatype="UDInt" /></Section></Sections></Member>
+    <Member Name="Monitor feedback position" Datatype="&quot;Concatenate two UInt into one UDInt&quot;" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute></AttributeList><Sections><Section Name="Input"><Member Name="Register low" Datatype="UInt" /><Member Name="Register high" Datatype="UInt" /></Section><Section Name="Output" /><Section Name="InOut" /><Section Name="Static"><Member Name="Register" Datatype="UDInt" /></Section></Sections></Member>
+    <Member Name="Monitor feedback speed r/min" Datatype="&quot;Concatenate two UInt into one UDInt&quot;" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute></AttributeList><Sections><Section Name="Input"><Member Name="Register low" Datatype="UInt" /><Member Name="Register high" Datatype="UInt" /></Section><Section Name="Output" /><Section Name="InOut" /><Section Name="Static"><Member Name="Register" Datatype="UDInt" /></Section></Sections></Member>
+    <Member Name="Monitor feedback speed Hz" Datatype="&quot;Concatenate two UInt into one UDInt&quot;" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute></AttributeList><Sections><Section Name="Input"><Member Name="Register low" Datatype="UInt" /><Member Name="Register high" Datatype="UInt" /></Section><Section Name="Output" /><Section Name="InOut" /><Section Name="Static"><Member Name="Register" Datatype="UDInt" /></Section></Sections></Member>
+    <Member Name="Monitor direct I/O" Datatype="&quot;Concatenate two UInt into one UDInt&quot;" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute></AttributeList><Sections><Section Name="Input"><Member Name="Register low" Datatype="UInt" /><Member Name="Register high" Datatype="UInt" /></Section><Section Name="Output" /><Section Name="InOut" /><Section Name="Static"><Member Name="Register" Datatype="UDInt" /></Section></Sections></Member>
+    <Member Name="Monitor torque" Datatype="&quot;Concatenate two UInt into one UDInt&quot;" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute></AttributeList><Sections><Section Name="Input"><Member Name="Register low" Datatype="UInt" /><Member Name="Register high" Datatype="UInt" /></Section><Section Name="Output" /><Section Name="InOut" /><Section Name="Static"><Member Name="Register" Datatype="UDInt" /></Section></Sections></Member>
+    <Member Name="Monitor cumulative load" Datatype="&quot;Concatenate two UInt into one UDInt&quot;" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute></AttributeList><Sections><Section Name="Input"><Member Name="Register low" Datatype="UInt" /><Member Name="Register high" Datatype="UInt" /></Section><Section Name="Output" /><Section Name="InOut" /><Section Name="Static"><Member Name="Register" Datatype="UDInt" /></Section></Sections></Member>
+    <Member Name="Monitor driver temperature" Datatype="&quot;Concatenate two UInt into one UDInt&quot;" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute></AttributeList><Sections><Section Name="Input"><Member Name="Register low" Datatype="UInt" /><Member Name="Register high" Datatype="UInt" /></Section><Section Name="Output" /><Section Name="InOut" /><Section Name="Static"><Member Name="Register" Datatype="UDInt" /></Section></Sections></Member>
+    <Member Name="Monitor motor temperature" Datatype="&quot;Concatenate two UInt into one UDInt&quot;" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute></AttributeList><Sections><Section Name="Input"><Member Name="Register low" Datatype="UInt" /><Member Name="Register high" Datatype="UInt" /></Section><Section Name="Output" /><Section Name="InOut" /><Section Name="Static"><Member Name="Register" Datatype="UDInt" /></Section></Sections></Member>
+    <Member Name="Monitor inverter voltage" Datatype="&quot;Concatenate two UInt into one UDInt&quot;" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute></AttributeList><Sections><Section Name="Input"><Member Name="Register low" Datatype="UInt" /><Member Name="Register high" Datatype="UInt" /></Section><Section Name="Output" /><Section Name="InOut" /><Section Name="Static"><Member Name="Register" Datatype="UDInt" /></Section></Sections></Member>
+    <Member Name="Monitor power supply voltage" Datatype="&quot;Concatenate two UInt into one UDInt&quot;" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute></AttributeList><Sections><Section Name="Input"><Member Name="Register low" Datatype="UInt" /><Member Name="Register high" Datatype="UInt" /></Section><Section Name="Output" /><Section Name="InOut" /><Section Name="Static"><Member Name="Register" Datatype="UDInt" /></Section></Sections></Member>
+    <Member Name="Monitor DIP SW" Datatype="&quot;Concatenate two UInt into one UDInt&quot;" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute></AttributeList><Sections><Section Name="Input"><Member Name="Register low" Datatype="UInt" /><Member Name="Register high" Datatype="UInt" /></Section><Section Name="Output" /><Section Name="InOut" /><Section Name="Static"><Member Name="Register" Datatype="UDInt" /></Section></Sections></Member>
+    <Member Name="Monitor ROT SW0" Datatype="&quot;Concatenate two UInt into one UDInt&quot;" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute></AttributeList><Sections><Section Name="Input"><Member Name="Register low" Datatype="UInt" /><Member Name="Register high" Datatype="UInt" /></Section><Section Name="Output" /><Section Name="InOut" /><Section Name="Static"><Member Name="Register" Datatype="UDInt" /></Section></Sections></Member>
+    <Member Name="Monitor ROT SW1" Datatype="&quot;Concatenate two UInt into one UDInt&quot;" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute></AttributeList><Sections><Section Name="Input"><Member Name="Register low" Datatype="UInt" /><Member Name="Register high" Datatype="UInt" /></Section><Section Name="Output" /><Section Name="InOut" /><Section Name="Static"><Member Name="Register" Datatype="UDInt" /></Section></Sections></Member>
+  </Section>
+  <Section Name="Temp" />
+  <Section Name="Constant" />
+</Sections></Interface>
+      <IsIECCheckEnabled>false</IsIECCheckEnabled>
+      <IsRetainMemResEnabled>false</IsRetainMemResEnabled>
+      <MemoryLayout>Optimized</MemoryLayout>
+      <MemoryReserve>100</MemoryReserve>
+      <Name>Modbus RTU RW sequencer</Name>
+      <Number>1</Number>
+      <ProgrammingLanguage>LAD</ProgrammingLanguage>
+      <SetENOAutomatically>false</SetENOAutomatically>
+      <UDABlockProperties />
+      <UDAEnableTagReadback>false</UDAEnableTagReadback>
+    </AttributeList>
+    <ObjectList>
+      <MultilingualText ID="1" CompositionName="Comment">
+        <ObjectList>
+          <MultilingualTextItem ID="2" CompositionName="Items">
+            <AttributeList>
+              <Culture>en-US</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+      <SW.Blocks.CompileUnit ID="3" CompositionName="CompileUnits">
+        <AttributeList>
+          <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v4">
+  <Parts>
+    <Access Scope="GlobalVariable" UId="21">
+      <Symbol>
+        <Component Name="Modbus RTU buffer" />
+        <Component Name="Operation data number_L" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="22">
+      <Symbol>
+        <Component Name="Modbus RTU buffer" />
+        <Component Name="Operation data number_H" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="23">
+      <Symbol>
+        <Component Name="Modbus RTU buffer" />
+        <Component Name="Operation type_L" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="24">
+      <Symbol>
+        <Component Name="Modbus RTU buffer" />
+        <Component Name="Operation type_H" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="25">
+      <Symbol>
+        <Component Name="Modbus RTU buffer" />
+        <Component Name="Position_L" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="26">
+      <Symbol>
+        <Component Name="Modbus RTU buffer" />
+        <Component Name="Position_H" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="27">
+      <Symbol>
+        <Component Name="Modbus RTU buffer" />
+        <Component Name="Speed_L" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="28">
+      <Symbol>
+        <Component Name="Modbus RTU buffer" />
+        <Component Name="Speed_H" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="29">
+      <Symbol>
+        <Component Name="Modbus RTU buffer" />
+        <Component Name="Starting_Changing rate_L" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="30">
+      <Symbol>
+        <Component Name="Modbus RTU buffer" />
+        <Component Name="Starting_Changing rate_H" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="31">
+      <Symbol>
+        <Component Name="Modbus RTU buffer" />
+        <Component Name="Stopping deceleration_L" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="32">
+      <Symbol>
+        <Component Name="Modbus RTU buffer" />
+        <Component Name="Stopping deceleration_H" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="33">
+      <Symbol>
+        <Component Name="Modbus RTU buffer" />
+        <Component Name="Operating current_L" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="34">
+      <Symbol>
+        <Component Name="Modbus RTU buffer" />
+        <Component Name="Operating current_H" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="35">
+      <Symbol>
+        <Component Name="Modbus RTU buffer" />
+        <Component Name="Operation trigger_L" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="36">
+      <Symbol>
+        <Component Name="Modbus RTU buffer" />
+        <Component Name="Operation trigger_H" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="37">
+      <Symbol>
+        <Component Name="Modbus RTU buffer" />
+        <Component Name="Forwarding destination_L" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="38">
+      <Symbol>
+        <Component Name="Modbus RTU buffer" />
+        <Component Name="Forwarding destination_H" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="39">
+      <Symbol>
+        <Component Name="Modbus RTU buffer" />
+        <Component Name="Alarm reset_L" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="40">
+      <Symbol>
+        <Component Name="Modbus RTU buffer" />
+        <Component Name="Alarm reset_H" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="41">
+      <Symbol>
+        <Component Name="Modbus RTU buffer" />
+        <Component Name="Clear Monitor alarm history_L" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="42">
+      <Symbol>
+        <Component Name="Modbus RTU buffer" />
+        <Component Name="Clear Monitor alarm history_H" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="43">
+      <Symbol>
+        <Component Name="Modbus RTU buffer" />
+        <Component Name="Clear comm history_L" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="44">
+      <Symbol>
+        <Component Name="Modbus RTU buffer" />
+        <Component Name="Clear comm history_H" />
+      </Symbol>
+    </Access>
+    <Call UId="45">
+      <CallInfo Name="Deconcatenate UDInt into two UInt" BlockType="FB">
+        <Instance Scope="LocalVariable" UId="46">
+          <Component Name="Operation data number" />
+        </Instance>
+        <Parameter Name="Register_L" Section="Output" Type="UInt" />
+        <Parameter Name="Register_H" Section="Output" Type="UInt" />
+      </CallInfo>
+    </Call>
+    <Call UId="47">
+      <CallInfo Name="Deconcatenate UDInt into two UInt" BlockType="FB">
+        <Instance Scope="LocalVariable" UId="48">
+          <Component Name="Operation type" />
+        </Instance>
+        <Parameter Name="Register_L" Section="Output" Type="UInt" />
+        <Parameter Name="Register_H" Section="Output" Type="UInt" />
+      </CallInfo>
+    </Call>
+    <Call UId="49">
+      <CallInfo Name="Deconcatenate UDInt into two UInt" BlockType="FB">
+        <Instance Scope="LocalVariable" UId="50">
+          <Component Name="Position" />
+        </Instance>
+        <Parameter Name="Register_L" Section="Output" Type="UInt" />
+        <Parameter Name="Register_H" Section="Output" Type="UInt" />
+      </CallInfo>
+    </Call>
+    <Call UId="51">
+      <CallInfo Name="Deconcatenate UDInt into two UInt" BlockType="FB">
+        <Instance Scope="LocalVariable" UId="52">
+          <Component Name="Speed" />
+        </Instance>
+        <Parameter Name="Register_L" Section="Output" Type="UInt" />
+        <Parameter Name="Register_H" Section="Output" Type="UInt" />
+      </CallInfo>
+    </Call>
+    <Call UId="53">
+      <CallInfo Name="Deconcatenate UDInt into two UInt" BlockType="FB">
+        <Instance Scope="LocalVariable" UId="54">
+          <Component Name="Starting changing rate" />
+        </Instance>
+        <Parameter Name="Register_L" Section="Output" Type="UInt" />
+        <Parameter Name="Register_H" Section="Output" Type="UInt" />
+      </CallInfo>
+    </Call>
+    <Call UId="55">
+      <CallInfo Name="Deconcatenate UDInt into two UInt" BlockType="FB">
+        <Instance Scope="LocalVariable" UId="56">
+          <Component Name="Stopping deceleration" />
+        </Instance>
+        <Parameter Name="Register_L" Section="Output" Type="UInt" />
+        <Parameter Name="Register_H" Section="Output" Type="UInt" />
+      </CallInfo>
+    </Call>
+    <Call UId="57">
+      <CallInfo Name="Deconcatenate UDInt into two UInt" BlockType="FB">
+        <Instance Scope="LocalVariable" UId="58">
+          <Component Name="Operating current" />
+        </Instance>
+        <Parameter Name="Register_L" Section="Output" Type="UInt" />
+        <Parameter Name="Register_H" Section="Output" Type="UInt" />
+      </CallInfo>
+    </Call>
+    <Call UId="59">
+      <CallInfo Name="Deconcatenate UDInt into two UInt" BlockType="FB">
+        <Instance Scope="LocalVariable" UId="60">
+          <Component Name="Operation trigger" />
+        </Instance>
+        <Parameter Name="Register_L" Section="Output" Type="UInt" />
+        <Parameter Name="Register_H" Section="Output" Type="UInt" />
+      </CallInfo>
+    </Call>
+    <Call UId="61">
+      <CallInfo Name="Deconcatenate UDInt into two UInt" BlockType="FB">
+        <Instance Scope="LocalVariable" UId="62">
+          <Component Name="Forwarding destination" />
+        </Instance>
+        <Parameter Name="Register_L" Section="Output" Type="UInt" />
+        <Parameter Name="Register_H" Section="Output" Type="UInt" />
+      </CallInfo>
+    </Call>
+    <Call UId="63">
+      <CallInfo Name="Deconcatenate UDInt into two UInt" BlockType="FB">
+        <Instance Scope="LocalVariable" UId="64">
+          <Component Name="Alarm reset" />
+        </Instance>
+        <Parameter Name="Register_L" Section="Output" Type="UInt" />
+        <Parameter Name="Register_H" Section="Output" Type="UInt" />
+      </CallInfo>
+    </Call>
+    <Call UId="65">
+      <CallInfo Name="Deconcatenate UDInt into two UInt" BlockType="FB">
+        <Instance Scope="LocalVariable" UId="66">
+          <Component Name="Clear monitor alarm history" />
+        </Instance>
+        <Parameter Name="Register_L" Section="Output" Type="UInt" />
+        <Parameter Name="Register_H" Section="Output" Type="UInt" />
+      </CallInfo>
+    </Call>
+    <Call UId="67">
+      <CallInfo Name="Deconcatenate UDInt into two UInt" BlockType="FB">
+        <Instance Scope="LocalVariable" UId="68">
+          <Component Name="Clear comm history" />
+        </Instance>
+        <Parameter Name="Register_L" Section="Output" Type="UInt" />
+        <Parameter Name="Register_H" Section="Output" Type="UInt" />
+      </CallInfo>
+    </Call>
+  </Parts>
+  <Wires>
+    <Wire UId="69">
+      <Powerrail />
+      <NameCon UId="45" Name="en" />
+      <NameCon UId="47" Name="en" />
+      <NameCon UId="49" Name="en" />
+      <NameCon UId="51" Name="en" />
+      <NameCon UId="53" Name="en" />
+      <NameCon UId="55" Name="en" />
+      <NameCon UId="57" Name="en" />
+      <NameCon UId="59" Name="en" />
+      <NameCon UId="61" Name="en" />
+      <NameCon UId="63" Name="en" />
+      <NameCon UId="65" Name="en" />
+      <NameCon UId="67" Name="en" />
+    </Wire>
+    <Wire UId="70">
+      <NameCon UId="45" Name="Register_L" />
+      <IdentCon UId="21" />
+    </Wire>
+    <Wire UId="71">
+      <NameCon UId="45" Name="Register_H" />
+      <IdentCon UId="22" />
+    </Wire>
+    <Wire UId="72">
+      <NameCon UId="47" Name="Register_L" />
+      <IdentCon UId="23" />
+    </Wire>
+    <Wire UId="73">
+      <NameCon UId="47" Name="Register_H" />
+      <IdentCon UId="24" />
+    </Wire>
+    <Wire UId="74">
+      <NameCon UId="49" Name="Register_L" />
+      <IdentCon UId="25" />
+    </Wire>
+    <Wire UId="75">
+      <NameCon UId="49" Name="Register_H" />
+      <IdentCon UId="26" />
+    </Wire>
+    <Wire UId="76">
+      <NameCon UId="51" Name="Register_L" />
+      <IdentCon UId="27" />
+    </Wire>
+    <Wire UId="77">
+      <NameCon UId="51" Name="Register_H" />
+      <IdentCon UId="28" />
+    </Wire>
+    <Wire UId="78">
+      <NameCon UId="53" Name="Register_L" />
+      <IdentCon UId="29" />
+    </Wire>
+    <Wire UId="79">
+      <NameCon UId="53" Name="Register_H" />
+      <IdentCon UId="30" />
+    </Wire>
+    <Wire UId="80">
+      <NameCon UId="55" Name="Register_L" />
+      <IdentCon UId="31" />
+    </Wire>
+    <Wire UId="81">
+      <NameCon UId="55" Name="Register_H" />
+      <IdentCon UId="32" />
+    </Wire>
+    <Wire UId="82">
+      <NameCon UId="57" Name="Register_L" />
+      <IdentCon UId="33" />
+    </Wire>
+    <Wire UId="83">
+      <NameCon UId="57" Name="Register_H" />
+      <IdentCon UId="34" />
+    </Wire>
+    <Wire UId="84">
+      <NameCon UId="59" Name="Register_L" />
+      <IdentCon UId="35" />
+    </Wire>
+    <Wire UId="85">
+      <NameCon UId="59" Name="Register_H" />
+      <IdentCon UId="36" />
+    </Wire>
+    <Wire UId="86">
+      <NameCon UId="61" Name="Register_L" />
+      <IdentCon UId="37" />
+    </Wire>
+    <Wire UId="87">
+      <NameCon UId="61" Name="Register_H" />
+      <IdentCon UId="38" />
+    </Wire>
+    <Wire UId="88">
+      <NameCon UId="63" Name="Register_L" />
+      <IdentCon UId="39" />
+    </Wire>
+    <Wire UId="89">
+      <NameCon UId="63" Name="Register_H" />
+      <IdentCon UId="40" />
+    </Wire>
+    <Wire UId="90">
+      <NameCon UId="65" Name="Register_L" />
+      <IdentCon UId="41" />
+    </Wire>
+    <Wire UId="91">
+      <NameCon UId="65" Name="Register_H" />
+      <IdentCon UId="42" />
+    </Wire>
+    <Wire UId="92">
+      <NameCon UId="67" Name="Register_L" />
+      <IdentCon UId="43" />
+    </Wire>
+    <Wire UId="93">
+      <NameCon UId="67" Name="Register_H" />
+      <IdentCon UId="44" />
+    </Wire>
+  </Wires>
+</FlgNet></NetworkSource>
+          <ProgrammingLanguage>LAD</ProgrammingLanguage>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="4" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="5" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+          <MultilingualText ID="6" CompositionName="Title">
+            <ObjectList>
+              <MultilingualTextItem ID="7" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>Deconcatenate data for writing it into modbus holding registers</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Blocks.CompileUnit>
+      <SW.Blocks.CompileUnit ID="8" CompositionName="CompileUnits">
+        <AttributeList>
+          <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v4">
+  <Parts>
+    <Access Scope="GlobalVariable" UId="21">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="Sequencer" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="22">
+      <Constant>
+        <ConstantType>USInt</ConstantType>
+        <ConstantValue>0</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="23">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="BUSY" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="24">
+      <Constant>
+        <ConstantType>USInt</ConstantType>
+        <ConstantValue>1</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="25">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="Sequencer" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="26">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="REQ" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="27">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="BUSY" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="28">
+      <Constant>
+        <ConstantType>Word</ConstantType>
+        <ConstantValue>2</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="29">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="MB_ADDR" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="30">
+      <Constant>
+        <ConstantType>USInt</ConstantType>
+        <ConstantValue>2</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="31">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="MODE" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="32">
+      <Constant>
+        <ConstantType>UDInt</ConstantType>
+        <ConstantValue>40000</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="33">
+      <Constant>
+        <ConstantType>UDInt</ConstantType>
+        <ConstantValue>88</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="34">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="DATA ADDR" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="35">
+      <Constant>
+        <ConstantType>UInt</ConstantType>
+        <ConstantValue>18</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="36">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="DATA_LEN" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="37">
+      <Symbol>
+        <Component Name="Modbus RTU buffer" />
+        <Component Name="Operation data number_H" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="38">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="DATA_PTR" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="39">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="REQ" />
+      </Symbol>
+    </Access>
+    <Part Name="Eq" UId="40">
+      <TemplateValue Name="SrcType" Type="Type">USInt</TemplateValue>
+    </Part>
+    <Part Name="Contact" UId="41" />
+    <Part Name="Move" UId="42" DisabledENO="true">
+      <TemplateValue Name="Card" Type="Cardinality">1</TemplateValue>
+    </Part>
+    <Part Name="RCoil" UId="43" />
+    <Part Name="Contact" UId="44">
+      <Negated Name="operand" />
+    </Part>
+    <Part Name="Move" UId="45" DisabledENO="true">
+      <TemplateValue Name="Card" Type="Cardinality">1</TemplateValue>
+    </Part>
+    <Part Name="Move" UId="46" DisabledENO="true">
+      <TemplateValue Name="Card" Type="Cardinality">1</TemplateValue>
+    </Part>
+    <Part Name="Add" UId="47" DisabledENO="true">
+      <TemplateValue Name="Card" Type="Cardinality">2</TemplateValue>
+      <TemplateValue Name="SrcType" Type="Type">UDInt</TemplateValue>
+    </Part>
+    <Part Name="Move" UId="48" DisabledENO="true">
+      <TemplateValue Name="Card" Type="Cardinality">1</TemplateValue>
+    </Part>
+    <Part Name="Move" UId="49" DisabledENO="true">
+      <TemplateValue Name="Card" Type="Cardinality">1</TemplateValue>
+    </Part>
+    <Part Name="SCoil" UId="50" />
+  </Parts>
+  <Wires>
+    <Wire UId="51">
+      <Powerrail />
+      <NameCon UId="40" Name="pre" />
+    </Wire>
+    <Wire UId="52">
+      <IdentCon UId="21" />
+      <NameCon UId="40" Name="in1" />
+    </Wire>
+    <Wire UId="53">
+      <IdentCon UId="22" />
+      <NameCon UId="40" Name="in2" />
+    </Wire>
+    <Wire UId="54">
+      <NameCon UId="40" Name="out" />
+      <NameCon UId="41" Name="in" />
+      <NameCon UId="44" Name="in" />
+    </Wire>
+    <Wire UId="55">
+      <IdentCon UId="23" />
+      <NameCon UId="41" Name="operand" />
+    </Wire>
+    <Wire UId="56">
+      <NameCon UId="41" Name="out" />
+      <NameCon UId="42" Name="en" />
+      <NameCon UId="43" Name="in" />
+    </Wire>
+    <Wire UId="57">
+      <IdentCon UId="24" />
+      <NameCon UId="42" Name="in" />
+    </Wire>
+    <Wire UId="58">
+      <NameCon UId="42" Name="out1" />
+      <IdentCon UId="25" />
+    </Wire>
+    <Wire UId="59">
+      <IdentCon UId="26" />
+      <NameCon UId="43" Name="operand" />
+    </Wire>
+    <Wire UId="60">
+      <IdentCon UId="27" />
+      <NameCon UId="44" Name="operand" />
+    </Wire>
+    <Wire UId="61">
+      <NameCon UId="44" Name="out" />
+      <NameCon UId="45" Name="en" />
+      <NameCon UId="46" Name="en" />
+      <NameCon UId="47" Name="en" />
+      <NameCon UId="48" Name="en" />
+      <NameCon UId="49" Name="en" />
+      <NameCon UId="50" Name="in" />
+    </Wire>
+    <Wire UId="62">
+      <IdentCon UId="28" />
+      <NameCon UId="45" Name="in" />
+    </Wire>
+    <Wire UId="63">
+      <NameCon UId="45" Name="out1" />
+      <IdentCon UId="29" />
+    </Wire>
+    <Wire UId="64">
+      <IdentCon UId="30" />
+      <NameCon UId="46" Name="in" />
+    </Wire>
+    <Wire UId="65">
+      <NameCon UId="46" Name="out1" />
+      <IdentCon UId="31" />
+    </Wire>
+    <Wire UId="66">
+      <IdentCon UId="32" />
+      <NameCon UId="47" Name="in1" />
+    </Wire>
+    <Wire UId="67">
+      <IdentCon UId="33" />
+      <NameCon UId="47" Name="in2" />
+    </Wire>
+    <Wire UId="68">
+      <NameCon UId="47" Name="out" />
+      <IdentCon UId="34" />
+    </Wire>
+    <Wire UId="69">
+      <IdentCon UId="35" />
+      <NameCon UId="48" Name="in" />
+    </Wire>
+    <Wire UId="70">
+      <NameCon UId="48" Name="out1" />
+      <IdentCon UId="36" />
+    </Wire>
+    <Wire UId="71">
+      <IdentCon UId="37" />
+      <NameCon UId="49" Name="in" />
+    </Wire>
+    <Wire UId="72">
+      <NameCon UId="49" Name="out1" />
+      <IdentCon UId="38" />
+    </Wire>
+    <Wire UId="73">
+      <IdentCon UId="39" />
+      <NameCon UId="50" Name="operand" />
+    </Wire>
+  </Wires>
+</FlgNet></NetworkSource>
+          <ProgrammingLanguage>LAD</ProgrammingLanguage>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="9" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="A" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+          <MultilingualText ID="B" CompositionName="Title">
+            <ObjectList>
+              <MultilingualTextItem ID="C" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>Data writing/reading step 0: Write data from address 88 to address 105</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Blocks.CompileUnit>
+      <SW.Blocks.CompileUnit ID="D" CompositionName="CompileUnits">
+        <AttributeList>
+          <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v4">
+  <Parts>
+    <Access Scope="GlobalVariable" UId="21">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="Sequencer" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="22">
+      <Constant>
+        <ConstantType>USInt</ConstantType>
+        <ConstantValue>1</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="23">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="BUSY" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="24">
+      <Constant>
+        <ConstantType>USInt</ConstantType>
+        <ConstantValue>2</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="25">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="Sequencer" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="26">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="REQ" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="27">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="BUSY" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="28">
+      <Constant>
+        <ConstantType>Word</ConstantType>
+        <ConstantValue>2</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="29">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="MB_ADDR" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="30">
+      <Constant>
+        <ConstantType>USInt</ConstantType>
+        <ConstantValue>2</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="31">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="MODE" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="32">
+      <Constant>
+        <ConstantType>UDInt</ConstantType>
+        <ConstantValue>40000</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="33">
+      <Constant>
+        <ConstantType>UDInt</ConstantType>
+        <ConstantValue>384</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="34">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="DATA ADDR" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="35">
+      <Constant>
+        <ConstantType>UInt</ConstantType>
+        <ConstantValue>2</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="36">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="DATA_LEN" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="37">
+      <Symbol>
+        <Component Name="Modbus RTU buffer" />
+        <Component Name="Alarm reset_H" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="38">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="DATA_PTR" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="39">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="REQ" />
+      </Symbol>
+    </Access>
+    <Part Name="Eq" UId="40">
+      <TemplateValue Name="SrcType" Type="Type">USInt</TemplateValue>
+    </Part>
+    <Part Name="Contact" UId="41" />
+    <Part Name="Move" UId="42" DisabledENO="true">
+      <TemplateValue Name="Card" Type="Cardinality">1</TemplateValue>
+    </Part>
+    <Part Name="RCoil" UId="43" />
+    <Part Name="Contact" UId="44">
+      <Negated Name="operand" />
+    </Part>
+    <Part Name="Move" UId="45" DisabledENO="true">
+      <TemplateValue Name="Card" Type="Cardinality">1</TemplateValue>
+    </Part>
+    <Part Name="Move" UId="46" DisabledENO="true">
+      <TemplateValue Name="Card" Type="Cardinality">1</TemplateValue>
+    </Part>
+    <Part Name="Add" UId="47" DisabledENO="true">
+      <TemplateValue Name="Card" Type="Cardinality">2</TemplateValue>
+      <TemplateValue Name="SrcType" Type="Type">UDInt</TemplateValue>
+    </Part>
+    <Part Name="Move" UId="48" DisabledENO="true">
+      <TemplateValue Name="Card" Type="Cardinality">1</TemplateValue>
+    </Part>
+    <Part Name="Move" UId="49" DisabledENO="true">
+      <TemplateValue Name="Card" Type="Cardinality">1</TemplateValue>
+    </Part>
+    <Part Name="SCoil" UId="50" />
+  </Parts>
+  <Wires>
+    <Wire UId="51">
+      <Powerrail />
+      <NameCon UId="40" Name="pre" />
+    </Wire>
+    <Wire UId="52">
+      <IdentCon UId="21" />
+      <NameCon UId="40" Name="in1" />
+    </Wire>
+    <Wire UId="53">
+      <IdentCon UId="22" />
+      <NameCon UId="40" Name="in2" />
+    </Wire>
+    <Wire UId="54">
+      <NameCon UId="40" Name="out" />
+      <NameCon UId="41" Name="in" />
+      <NameCon UId="44" Name="in" />
+    </Wire>
+    <Wire UId="55">
+      <IdentCon UId="23" />
+      <NameCon UId="41" Name="operand" />
+    </Wire>
+    <Wire UId="56">
+      <NameCon UId="41" Name="out" />
+      <NameCon UId="42" Name="en" />
+      <NameCon UId="43" Name="in" />
+    </Wire>
+    <Wire UId="57">
+      <IdentCon UId="24" />
+      <NameCon UId="42" Name="in" />
+    </Wire>
+    <Wire UId="58">
+      <NameCon UId="42" Name="out1" />
+      <IdentCon UId="25" />
+    </Wire>
+    <Wire UId="59">
+      <IdentCon UId="26" />
+      <NameCon UId="43" Name="operand" />
+    </Wire>
+    <Wire UId="60">
+      <IdentCon UId="27" />
+      <NameCon UId="44" Name="operand" />
+    </Wire>
+    <Wire UId="61">
+      <NameCon UId="44" Name="out" />
+      <NameCon UId="45" Name="en" />
+      <NameCon UId="46" Name="en" />
+      <NameCon UId="47" Name="en" />
+      <NameCon UId="48" Name="en" />
+      <NameCon UId="49" Name="en" />
+      <NameCon UId="50" Name="in" />
+    </Wire>
+    <Wire UId="62">
+      <IdentCon UId="28" />
+      <NameCon UId="45" Name="in" />
+    </Wire>
+    <Wire UId="63">
+      <NameCon UId="45" Name="out1" />
+      <IdentCon UId="29" />
+    </Wire>
+    <Wire UId="64">
+      <IdentCon UId="30" />
+      <NameCon UId="46" Name="in" />
+    </Wire>
+    <Wire UId="65">
+      <NameCon UId="46" Name="out1" />
+      <IdentCon UId="31" />
+    </Wire>
+    <Wire UId="66">
+      <IdentCon UId="32" />
+      <NameCon UId="47" Name="in1" />
+    </Wire>
+    <Wire UId="67">
+      <IdentCon UId="33" />
+      <NameCon UId="47" Name="in2" />
+    </Wire>
+    <Wire UId="68">
+      <NameCon UId="47" Name="out" />
+      <IdentCon UId="34" />
+    </Wire>
+    <Wire UId="69">
+      <IdentCon UId="35" />
+      <NameCon UId="48" Name="in" />
+    </Wire>
+    <Wire UId="70">
+      <NameCon UId="48" Name="out1" />
+      <IdentCon UId="36" />
+    </Wire>
+    <Wire UId="71">
+      <IdentCon UId="37" />
+      <NameCon UId="49" Name="in" />
+    </Wire>
+    <Wire UId="72">
+      <NameCon UId="49" Name="out1" />
+      <IdentCon UId="38" />
+    </Wire>
+    <Wire UId="73">
+      <IdentCon UId="39" />
+      <NameCon UId="50" Name="operand" />
+    </Wire>
+  </Wires>
+</FlgNet></NetworkSource>
+          <ProgrammingLanguage>LAD</ProgrammingLanguage>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="E" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="F" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+          <MultilingualText ID="10" CompositionName="Title">
+            <ObjectList>
+              <MultilingualTextItem ID="11" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>Data writing/reading step 1: Write data from address 384 to address 385</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Blocks.CompileUnit>
+      <SW.Blocks.CompileUnit ID="12" CompositionName="CompileUnits">
+        <AttributeList>
+          <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v4">
+  <Parts>
+    <Access Scope="GlobalVariable" UId="21">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="Sequencer" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="22">
+      <Constant>
+        <ConstantType>USInt</ConstantType>
+        <ConstantValue>2</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="23">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="BUSY" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="24">
+      <Constant>
+        <ConstantType>USInt</ConstantType>
+        <ConstantValue>3</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="25">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="Sequencer" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="26">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="REQ" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="27">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="BUSY" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="28">
+      <Constant>
+        <ConstantType>Word</ConstantType>
+        <ConstantValue>2</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="29">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="MB_ADDR" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="30">
+      <Constant>
+        <ConstantType>USInt</ConstantType>
+        <ConstantValue>2</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="31">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="MODE" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="32">
+      <Constant>
+        <ConstantType>UDInt</ConstantType>
+        <ConstantValue>40000</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="33">
+      <Constant>
+        <ConstantType>UDInt</ConstantType>
+        <ConstantValue>388</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="34">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="DATA ADDR" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="35">
+      <Constant>
+        <ConstantType>UInt</ConstantType>
+        <ConstantValue>2</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="36">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="DATA_LEN" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="37">
+      <Symbol>
+        <Component Name="Modbus RTU buffer" />
+        <Component Name="Clear Monitor alarm history_H" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="38">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="DATA_PTR" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="39">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="REQ" />
+      </Symbol>
+    </Access>
+    <Part Name="Eq" UId="40">
+      <TemplateValue Name="SrcType" Type="Type">USInt</TemplateValue>
+    </Part>
+    <Part Name="Contact" UId="41" />
+    <Part Name="Move" UId="42" DisabledENO="true">
+      <TemplateValue Name="Card" Type="Cardinality">1</TemplateValue>
+    </Part>
+    <Part Name="RCoil" UId="43" />
+    <Part Name="Contact" UId="44">
+      <Negated Name="operand" />
+    </Part>
+    <Part Name="Move" UId="45" DisabledENO="true">
+      <TemplateValue Name="Card" Type="Cardinality">1</TemplateValue>
+    </Part>
+    <Part Name="Move" UId="46" DisabledENO="true">
+      <TemplateValue Name="Card" Type="Cardinality">1</TemplateValue>
+    </Part>
+    <Part Name="Add" UId="47" DisabledENO="true">
+      <TemplateValue Name="Card" Type="Cardinality">2</TemplateValue>
+      <TemplateValue Name="SrcType" Type="Type">UDInt</TemplateValue>
+    </Part>
+    <Part Name="Move" UId="48" DisabledENO="true">
+      <TemplateValue Name="Card" Type="Cardinality">1</TemplateValue>
+    </Part>
+    <Part Name="Move" UId="49" DisabledENO="true">
+      <TemplateValue Name="Card" Type="Cardinality">1</TemplateValue>
+    </Part>
+    <Part Name="SCoil" UId="50" />
+  </Parts>
+  <Wires>
+    <Wire UId="51">
+      <Powerrail />
+      <NameCon UId="40" Name="pre" />
+    </Wire>
+    <Wire UId="52">
+      <IdentCon UId="21" />
+      <NameCon UId="40" Name="in1" />
+    </Wire>
+    <Wire UId="53">
+      <IdentCon UId="22" />
+      <NameCon UId="40" Name="in2" />
+    </Wire>
+    <Wire UId="54">
+      <NameCon UId="40" Name="out" />
+      <NameCon UId="41" Name="in" />
+      <NameCon UId="44" Name="in" />
+    </Wire>
+    <Wire UId="55">
+      <IdentCon UId="23" />
+      <NameCon UId="41" Name="operand" />
+    </Wire>
+    <Wire UId="56">
+      <NameCon UId="41" Name="out" />
+      <NameCon UId="42" Name="en" />
+      <NameCon UId="43" Name="in" />
+    </Wire>
+    <Wire UId="57">
+      <IdentCon UId="24" />
+      <NameCon UId="42" Name="in" />
+    </Wire>
+    <Wire UId="58">
+      <NameCon UId="42" Name="out1" />
+      <IdentCon UId="25" />
+    </Wire>
+    <Wire UId="59">
+      <IdentCon UId="26" />
+      <NameCon UId="43" Name="operand" />
+    </Wire>
+    <Wire UId="60">
+      <IdentCon UId="27" />
+      <NameCon UId="44" Name="operand" />
+    </Wire>
+    <Wire UId="61">
+      <NameCon UId="44" Name="out" />
+      <NameCon UId="45" Name="en" />
+      <NameCon UId="46" Name="en" />
+      <NameCon UId="47" Name="en" />
+      <NameCon UId="48" Name="en" />
+      <NameCon UId="49" Name="en" />
+      <NameCon UId="50" Name="in" />
+    </Wire>
+    <Wire UId="62">
+      <IdentCon UId="28" />
+      <NameCon UId="45" Name="in" />
+    </Wire>
+    <Wire UId="63">
+      <NameCon UId="45" Name="out1" />
+      <IdentCon UId="29" />
+    </Wire>
+    <Wire UId="64">
+      <IdentCon UId="30" />
+      <NameCon UId="46" Name="in" />
+    </Wire>
+    <Wire UId="65">
+      <NameCon UId="46" Name="out1" />
+      <IdentCon UId="31" />
+    </Wire>
+    <Wire UId="66">
+      <IdentCon UId="32" />
+      <NameCon UId="47" Name="in1" />
+    </Wire>
+    <Wire UId="67">
+      <IdentCon UId="33" />
+      <NameCon UId="47" Name="in2" />
+    </Wire>
+    <Wire UId="68">
+      <NameCon UId="47" Name="out" />
+      <IdentCon UId="34" />
+    </Wire>
+    <Wire UId="69">
+      <IdentCon UId="35" />
+      <NameCon UId="48" Name="in" />
+    </Wire>
+    <Wire UId="70">
+      <NameCon UId="48" Name="out1" />
+      <IdentCon UId="36" />
+    </Wire>
+    <Wire UId="71">
+      <IdentCon UId="37" />
+      <NameCon UId="49" Name="in" />
+    </Wire>
+    <Wire UId="72">
+      <NameCon UId="49" Name="out1" />
+      <IdentCon UId="38" />
+    </Wire>
+    <Wire UId="73">
+      <IdentCon UId="39" />
+      <NameCon UId="50" Name="operand" />
+    </Wire>
+  </Wires>
+</FlgNet></NetworkSource>
+          <ProgrammingLanguage>LAD</ProgrammingLanguage>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="13" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="14" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+          <MultilingualText ID="15" CompositionName="Title">
+            <ObjectList>
+              <MultilingualTextItem ID="16" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>Data writing/reading step 2: Write data from address 388 to address 389</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Blocks.CompileUnit>
+      <SW.Blocks.CompileUnit ID="17" CompositionName="CompileUnits">
+        <AttributeList>
+          <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v4">
+  <Parts>
+    <Access Scope="GlobalVariable" UId="21">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="Sequencer" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="22">
+      <Constant>
+        <ConstantType>USInt</ConstantType>
+        <ConstantValue>3</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="23">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="BUSY" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="24">
+      <Constant>
+        <ConstantType>USInt</ConstantType>
+        <ConstantValue>4</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="25">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="Sequencer" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="26">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="REQ" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="27">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="BUSY" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="28">
+      <Constant>
+        <ConstantType>Word</ConstantType>
+        <ConstantValue>2</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="29">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="MB_ADDR" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="30">
+      <Constant>
+        <ConstantType>USInt</ConstantType>
+        <ConstantValue>2</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="31">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="MODE" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="32">
+      <Constant>
+        <ConstantType>UDInt</ConstantType>
+        <ConstantValue>40000</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="33">
+      <Constant>
+        <ConstantType>UDInt</ConstantType>
+        <ConstantValue>392</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="34">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="DATA ADDR" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="35">
+      <Constant>
+        <ConstantType>UInt</ConstantType>
+        <ConstantValue>2</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="36">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="DATA_LEN" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="37">
+      <Symbol>
+        <Component Name="Modbus RTU buffer" />
+        <Component Name="Clear comm history_H" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="38">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="DATA_PTR" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="39">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="REQ" />
+      </Symbol>
+    </Access>
+    <Part Name="Eq" UId="40">
+      <TemplateValue Name="SrcType" Type="Type">USInt</TemplateValue>
+    </Part>
+    <Part Name="Contact" UId="41" />
+    <Part Name="Move" UId="42" DisabledENO="true">
+      <TemplateValue Name="Card" Type="Cardinality">1</TemplateValue>
+    </Part>
+    <Part Name="RCoil" UId="43" />
+    <Part Name="Contact" UId="44">
+      <Negated Name="operand" />
+    </Part>
+    <Part Name="Move" UId="45" DisabledENO="true">
+      <TemplateValue Name="Card" Type="Cardinality">1</TemplateValue>
+    </Part>
+    <Part Name="Move" UId="46" DisabledENO="true">
+      <TemplateValue Name="Card" Type="Cardinality">1</TemplateValue>
+    </Part>
+    <Part Name="Add" UId="47" DisabledENO="true">
+      <TemplateValue Name="Card" Type="Cardinality">2</TemplateValue>
+      <TemplateValue Name="SrcType" Type="Type">UDInt</TemplateValue>
+    </Part>
+    <Part Name="Move" UId="48" DisabledENO="true">
+      <TemplateValue Name="Card" Type="Cardinality">1</TemplateValue>
+    </Part>
+    <Part Name="Move" UId="49" DisabledENO="true">
+      <TemplateValue Name="Card" Type="Cardinality">1</TemplateValue>
+    </Part>
+    <Part Name="SCoil" UId="50" />
+  </Parts>
+  <Wires>
+    <Wire UId="51">
+      <Powerrail />
+      <NameCon UId="40" Name="pre" />
+    </Wire>
+    <Wire UId="52">
+      <IdentCon UId="21" />
+      <NameCon UId="40" Name="in1" />
+    </Wire>
+    <Wire UId="53">
+      <IdentCon UId="22" />
+      <NameCon UId="40" Name="in2" />
+    </Wire>
+    <Wire UId="54">
+      <NameCon UId="40" Name="out" />
+      <NameCon UId="41" Name="in" />
+      <NameCon UId="44" Name="in" />
+    </Wire>
+    <Wire UId="55">
+      <IdentCon UId="23" />
+      <NameCon UId="41" Name="operand" />
+    </Wire>
+    <Wire UId="56">
+      <NameCon UId="41" Name="out" />
+      <NameCon UId="42" Name="en" />
+      <NameCon UId="43" Name="in" />
+    </Wire>
+    <Wire UId="57">
+      <IdentCon UId="24" />
+      <NameCon UId="42" Name="in" />
+    </Wire>
+    <Wire UId="58">
+      <NameCon UId="42" Name="out1" />
+      <IdentCon UId="25" />
+    </Wire>
+    <Wire UId="59">
+      <IdentCon UId="26" />
+      <NameCon UId="43" Name="operand" />
+    </Wire>
+    <Wire UId="60">
+      <IdentCon UId="27" />
+      <NameCon UId="44" Name="operand" />
+    </Wire>
+    <Wire UId="61">
+      <NameCon UId="44" Name="out" />
+      <NameCon UId="45" Name="en" />
+      <NameCon UId="46" Name="en" />
+      <NameCon UId="47" Name="en" />
+      <NameCon UId="48" Name="en" />
+      <NameCon UId="49" Name="en" />
+      <NameCon UId="50" Name="in" />
+    </Wire>
+    <Wire UId="62">
+      <IdentCon UId="28" />
+      <NameCon UId="45" Name="in" />
+    </Wire>
+    <Wire UId="63">
+      <NameCon UId="45" Name="out1" />
+      <IdentCon UId="29" />
+    </Wire>
+    <Wire UId="64">
+      <IdentCon UId="30" />
+      <NameCon UId="46" Name="in" />
+    </Wire>
+    <Wire UId="65">
+      <NameCon UId="46" Name="out1" />
+      <IdentCon UId="31" />
+    </Wire>
+    <Wire UId="66">
+      <IdentCon UId="32" />
+      <NameCon UId="47" Name="in1" />
+    </Wire>
+    <Wire UId="67">
+      <IdentCon UId="33" />
+      <NameCon UId="47" Name="in2" />
+    </Wire>
+    <Wire UId="68">
+      <NameCon UId="47" Name="out" />
+      <IdentCon UId="34" />
+    </Wire>
+    <Wire UId="69">
+      <IdentCon UId="35" />
+      <NameCon UId="48" Name="in" />
+    </Wire>
+    <Wire UId="70">
+      <NameCon UId="48" Name="out1" />
+      <IdentCon UId="36" />
+    </Wire>
+    <Wire UId="71">
+      <IdentCon UId="37" />
+      <NameCon UId="49" Name="in" />
+    </Wire>
+    <Wire UId="72">
+      <NameCon UId="49" Name="out1" />
+      <IdentCon UId="38" />
+    </Wire>
+    <Wire UId="73">
+      <IdentCon UId="39" />
+      <NameCon UId="50" Name="operand" />
+    </Wire>
+  </Wires>
+</FlgNet></NetworkSource>
+          <ProgrammingLanguage>LAD</ProgrammingLanguage>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="18" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="19" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+          <MultilingualText ID="1A" CompositionName="Title">
+            <ObjectList>
+              <MultilingualTextItem ID="1B" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>Data writing/reading step 3: Write data from address 392 to address 393</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Blocks.CompileUnit>
+      <SW.Blocks.CompileUnit ID="1C" CompositionName="CompileUnits">
+        <AttributeList>
+          <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v4">
+  <Parts>
+    <Access Scope="GlobalVariable" UId="21">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="Sequencer" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="22">
+      <Constant>
+        <ConstantType>USInt</ConstantType>
+        <ConstantValue>4</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="23">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="BUSY" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="24">
+      <Constant>
+        <ConstantType>USInt</ConstantType>
+        <ConstantValue>5</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="25">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="Sequencer" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="26">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="REQ" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="27">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="BUSY" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="28">
+      <Constant>
+        <ConstantType>Word</ConstantType>
+        <ConstantValue>2</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="29">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="MB_ADDR" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="30">
+      <Constant>
+        <ConstantType>USInt</ConstantType>
+        <ConstantValue>0</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="31">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="MODE" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="32">
+      <Constant>
+        <ConstantType>UDInt</ConstantType>
+        <ConstantValue>40000</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="33">
+      <Constant>
+        <ConstantType>UDInt</ConstantType>
+        <ConstantValue>128</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="34">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="DATA ADDR" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="35">
+      <Constant>
+        <ConstantType>UInt</ConstantType>
+        <ConstantValue>12</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="36">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="DATA_LEN" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="37">
+      <Symbol>
+        <Component Name="Modbus RTU buffer" />
+        <Component Name="Monitor present alarm_H" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="38">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="DATA_PTR" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="39">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="REQ" />
+      </Symbol>
+    </Access>
+    <Part Name="Eq" UId="40">
+      <TemplateValue Name="SrcType" Type="Type">USInt</TemplateValue>
+    </Part>
+    <Part Name="Contact" UId="41" />
+    <Part Name="Move" UId="42" DisabledENO="true">
+      <TemplateValue Name="Card" Type="Cardinality">1</TemplateValue>
+    </Part>
+    <Part Name="RCoil" UId="43" />
+    <Part Name="Contact" UId="44">
+      <Negated Name="operand" />
+    </Part>
+    <Part Name="Move" UId="45" DisabledENO="true">
+      <TemplateValue Name="Card" Type="Cardinality">1</TemplateValue>
+    </Part>
+    <Part Name="Move" UId="46" DisabledENO="true">
+      <TemplateValue Name="Card" Type="Cardinality">1</TemplateValue>
+    </Part>
+    <Part Name="Add" UId="47" DisabledENO="true">
+      <TemplateValue Name="Card" Type="Cardinality">2</TemplateValue>
+      <TemplateValue Name="SrcType" Type="Type">UDInt</TemplateValue>
+    </Part>
+    <Part Name="Move" UId="48" DisabledENO="true">
+      <TemplateValue Name="Card" Type="Cardinality">1</TemplateValue>
+    </Part>
+    <Part Name="Move" UId="49" DisabledENO="true">
+      <TemplateValue Name="Card" Type="Cardinality">1</TemplateValue>
+    </Part>
+    <Part Name="SCoil" UId="50" />
+  </Parts>
+  <Wires>
+    <Wire UId="51">
+      <Powerrail />
+      <NameCon UId="40" Name="pre" />
+    </Wire>
+    <Wire UId="52">
+      <IdentCon UId="21" />
+      <NameCon UId="40" Name="in1" />
+    </Wire>
+    <Wire UId="53">
+      <IdentCon UId="22" />
+      <NameCon UId="40" Name="in2" />
+    </Wire>
+    <Wire UId="54">
+      <NameCon UId="40" Name="out" />
+      <NameCon UId="41" Name="in" />
+      <NameCon UId="44" Name="in" />
+    </Wire>
+    <Wire UId="55">
+      <IdentCon UId="23" />
+      <NameCon UId="41" Name="operand" />
+    </Wire>
+    <Wire UId="56">
+      <NameCon UId="41" Name="out" />
+      <NameCon UId="42" Name="en" />
+      <NameCon UId="43" Name="in" />
+    </Wire>
+    <Wire UId="57">
+      <IdentCon UId="24" />
+      <NameCon UId="42" Name="in" />
+    </Wire>
+    <Wire UId="58">
+      <NameCon UId="42" Name="out1" />
+      <IdentCon UId="25" />
+    </Wire>
+    <Wire UId="59">
+      <IdentCon UId="26" />
+      <NameCon UId="43" Name="operand" />
+    </Wire>
+    <Wire UId="60">
+      <IdentCon UId="27" />
+      <NameCon UId="44" Name="operand" />
+    </Wire>
+    <Wire UId="61">
+      <NameCon UId="44" Name="out" />
+      <NameCon UId="45" Name="en" />
+      <NameCon UId="46" Name="en" />
+      <NameCon UId="47" Name="en" />
+      <NameCon UId="48" Name="en" />
+      <NameCon UId="49" Name="en" />
+      <NameCon UId="50" Name="in" />
+    </Wire>
+    <Wire UId="62">
+      <IdentCon UId="28" />
+      <NameCon UId="45" Name="in" />
+    </Wire>
+    <Wire UId="63">
+      <NameCon UId="45" Name="out1" />
+      <IdentCon UId="29" />
+    </Wire>
+    <Wire UId="64">
+      <IdentCon UId="30" />
+      <NameCon UId="46" Name="in" />
+    </Wire>
+    <Wire UId="65">
+      <NameCon UId="46" Name="out1" />
+      <IdentCon UId="31" />
+    </Wire>
+    <Wire UId="66">
+      <IdentCon UId="32" />
+      <NameCon UId="47" Name="in1" />
+    </Wire>
+    <Wire UId="67">
+      <IdentCon UId="33" />
+      <NameCon UId="47" Name="in2" />
+    </Wire>
+    <Wire UId="68">
+      <NameCon UId="47" Name="out" />
+      <IdentCon UId="34" />
+    </Wire>
+    <Wire UId="69">
+      <IdentCon UId="35" />
+      <NameCon UId="48" Name="in" />
+    </Wire>
+    <Wire UId="70">
+      <NameCon UId="48" Name="out1" />
+      <IdentCon UId="36" />
+    </Wire>
+    <Wire UId="71">
+      <IdentCon UId="37" />
+      <NameCon UId="49" Name="in" />
+    </Wire>
+    <Wire UId="72">
+      <NameCon UId="49" Name="out1" />
+      <IdentCon UId="38" />
+    </Wire>
+    <Wire UId="73">
+      <IdentCon UId="39" />
+      <NameCon UId="50" Name="operand" />
+    </Wire>
+  </Wires>
+</FlgNet></NetworkSource>
+          <ProgrammingLanguage>LAD</ProgrammingLanguage>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="1D" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="1E" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+          <MultilingualText ID="1F" CompositionName="Title">
+            <ObjectList>
+              <MultilingualTextItem ID="20" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>Data writing/reading step 4: Read data from address 128 to address 139</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Blocks.CompileUnit>
+      <SW.Blocks.CompileUnit ID="21" CompositionName="CompileUnits">
+        <AttributeList>
+          <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v4">
+  <Parts>
+    <Access Scope="GlobalVariable" UId="21">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="Sequencer" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="22">
+      <Constant>
+        <ConstantType>USInt</ConstantType>
+        <ConstantValue>5</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="23">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="BUSY" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="24">
+      <Constant>
+        <ConstantType>USInt</ConstantType>
+        <ConstantValue>6</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="25">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="Sequencer" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="26">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="REQ" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="27">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="BUSY" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="28">
+      <Constant>
+        <ConstantType>Word</ConstantType>
+        <ConstantValue>2</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="29">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="MB_ADDR" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="30">
+      <Constant>
+        <ConstantType>USInt</ConstantType>
+        <ConstantValue>0</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="31">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="MODE" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="32">
+      <Constant>
+        <ConstantType>UDInt</ConstantType>
+        <ConstantValue>40000</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="33">
+      <Constant>
+        <ConstantType>UDInt</ConstantType>
+        <ConstantValue>172</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="34">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="DATA ADDR" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="35">
+      <Constant>
+        <ConstantType>UInt</ConstantType>
+        <ConstantValue>12</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="36">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="DATA_LEN" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="37">
+      <Symbol>
+        <Component Name="Modbus RTU buffer" />
+        <Component Name="Monitor present communication error_H" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="38">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="DATA_PTR" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="39">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="REQ" />
+      </Symbol>
+    </Access>
+    <Part Name="Eq" UId="40">
+      <TemplateValue Name="SrcType" Type="Type">USInt</TemplateValue>
+    </Part>
+    <Part Name="Contact" UId="41" />
+    <Part Name="Move" UId="42" DisabledENO="true">
+      <TemplateValue Name="Card" Type="Cardinality">1</TemplateValue>
+    </Part>
+    <Part Name="RCoil" UId="43" />
+    <Part Name="Contact" UId="44">
+      <Negated Name="operand" />
+    </Part>
+    <Part Name="Move" UId="45" DisabledENO="true">
+      <TemplateValue Name="Card" Type="Cardinality">1</TemplateValue>
+    </Part>
+    <Part Name="Move" UId="46" DisabledENO="true">
+      <TemplateValue Name="Card" Type="Cardinality">1</TemplateValue>
+    </Part>
+    <Part Name="Add" UId="47" DisabledENO="true">
+      <TemplateValue Name="Card" Type="Cardinality">2</TemplateValue>
+      <TemplateValue Name="SrcType" Type="Type">UDInt</TemplateValue>
+    </Part>
+    <Part Name="Move" UId="48" DisabledENO="true">
+      <TemplateValue Name="Card" Type="Cardinality">1</TemplateValue>
+    </Part>
+    <Part Name="Move" UId="49" DisabledENO="true">
+      <TemplateValue Name="Card" Type="Cardinality">1</TemplateValue>
+    </Part>
+    <Part Name="SCoil" UId="50" />
+  </Parts>
+  <Wires>
+    <Wire UId="51">
+      <Powerrail />
+      <NameCon UId="40" Name="pre" />
+    </Wire>
+    <Wire UId="52">
+      <IdentCon UId="21" />
+      <NameCon UId="40" Name="in1" />
+    </Wire>
+    <Wire UId="53">
+      <IdentCon UId="22" />
+      <NameCon UId="40" Name="in2" />
+    </Wire>
+    <Wire UId="54">
+      <NameCon UId="40" Name="out" />
+      <NameCon UId="41" Name="in" />
+      <NameCon UId="44" Name="in" />
+    </Wire>
+    <Wire UId="55">
+      <IdentCon UId="23" />
+      <NameCon UId="41" Name="operand" />
+    </Wire>
+    <Wire UId="56">
+      <NameCon UId="41" Name="out" />
+      <NameCon UId="42" Name="en" />
+      <NameCon UId="43" Name="in" />
+    </Wire>
+    <Wire UId="57">
+      <IdentCon UId="24" />
+      <NameCon UId="42" Name="in" />
+    </Wire>
+    <Wire UId="58">
+      <NameCon UId="42" Name="out1" />
+      <IdentCon UId="25" />
+    </Wire>
+    <Wire UId="59">
+      <IdentCon UId="26" />
+      <NameCon UId="43" Name="operand" />
+    </Wire>
+    <Wire UId="60">
+      <IdentCon UId="27" />
+      <NameCon UId="44" Name="operand" />
+    </Wire>
+    <Wire UId="61">
+      <NameCon UId="44" Name="out" />
+      <NameCon UId="45" Name="en" />
+      <NameCon UId="46" Name="en" />
+      <NameCon UId="47" Name="en" />
+      <NameCon UId="48" Name="en" />
+      <NameCon UId="49" Name="en" />
+      <NameCon UId="50" Name="in" />
+    </Wire>
+    <Wire UId="62">
+      <IdentCon UId="28" />
+      <NameCon UId="45" Name="in" />
+    </Wire>
+    <Wire UId="63">
+      <NameCon UId="45" Name="out1" />
+      <IdentCon UId="29" />
+    </Wire>
+    <Wire UId="64">
+      <IdentCon UId="30" />
+      <NameCon UId="46" Name="in" />
+    </Wire>
+    <Wire UId="65">
+      <NameCon UId="46" Name="out1" />
+      <IdentCon UId="31" />
+    </Wire>
+    <Wire UId="66">
+      <IdentCon UId="32" />
+      <NameCon UId="47" Name="in1" />
+    </Wire>
+    <Wire UId="67">
+      <IdentCon UId="33" />
+      <NameCon UId="47" Name="in2" />
+    </Wire>
+    <Wire UId="68">
+      <NameCon UId="47" Name="out" />
+      <IdentCon UId="34" />
+    </Wire>
+    <Wire UId="69">
+      <IdentCon UId="35" />
+      <NameCon UId="48" Name="in" />
+    </Wire>
+    <Wire UId="70">
+      <NameCon UId="48" Name="out1" />
+      <IdentCon UId="36" />
+    </Wire>
+    <Wire UId="71">
+      <IdentCon UId="37" />
+      <NameCon UId="49" Name="in" />
+    </Wire>
+    <Wire UId="72">
+      <NameCon UId="49" Name="out1" />
+      <IdentCon UId="38" />
+    </Wire>
+    <Wire UId="73">
+      <IdentCon UId="39" />
+      <NameCon UId="50" Name="operand" />
+    </Wire>
+  </Wires>
+</FlgNet></NetworkSource>
+          <ProgrammingLanguage>LAD</ProgrammingLanguage>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="22" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="23" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+          <MultilingualText ID="24" CompositionName="Title">
+            <ObjectList>
+              <MultilingualTextItem ID="25" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>Data writing/reading step 5: Read data from address 172 to address 183</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Blocks.CompileUnit>
+      <SW.Blocks.CompileUnit ID="26" CompositionName="CompileUnits">
+        <AttributeList>
+          <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v4">
+  <Parts>
+    <Access Scope="GlobalVariable" UId="21">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="Sequencer" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="22">
+      <Constant>
+        <ConstantType>USInt</ConstantType>
+        <ConstantValue>6</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="23">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="BUSY" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="24">
+      <Constant>
+        <ConstantType>USInt</ConstantType>
+        <ConstantValue>7</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="25">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="Sequencer" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="26">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="REQ" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="27">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="BUSY" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="28">
+      <Constant>
+        <ConstantType>Word</ConstantType>
+        <ConstantValue>2</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="29">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="MB_ADDR" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="30">
+      <Constant>
+        <ConstantType>USInt</ConstantType>
+        <ConstantValue>0</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="31">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="MODE" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="32">
+      <Constant>
+        <ConstantType>UDInt</ConstantType>
+        <ConstantValue>40000</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="33">
+      <Constant>
+        <ConstantType>UDInt</ConstantType>
+        <ConstantValue>204</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="34">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="DATA ADDR" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="35">
+      <Constant>
+        <ConstantType>UInt</ConstantType>
+        <ConstantValue>6</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="36">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="DATA_LEN" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="37">
+      <Symbol>
+        <Component Name="Modbus RTU buffer" />
+        <Component Name="Monitor feedback position_H" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="38">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="DATA_PTR" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="39">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="REQ" />
+      </Symbol>
+    </Access>
+    <Part Name="Eq" UId="40">
+      <TemplateValue Name="SrcType" Type="Type">USInt</TemplateValue>
+    </Part>
+    <Part Name="Contact" UId="41" />
+    <Part Name="Move" UId="42" DisabledENO="true">
+      <TemplateValue Name="Card" Type="Cardinality">1</TemplateValue>
+    </Part>
+    <Part Name="RCoil" UId="43" />
+    <Part Name="Contact" UId="44">
+      <Negated Name="operand" />
+    </Part>
+    <Part Name="Move" UId="45" DisabledENO="true">
+      <TemplateValue Name="Card" Type="Cardinality">1</TemplateValue>
+    </Part>
+    <Part Name="Move" UId="46" DisabledENO="true">
+      <TemplateValue Name="Card" Type="Cardinality">1</TemplateValue>
+    </Part>
+    <Part Name="Add" UId="47" DisabledENO="true">
+      <TemplateValue Name="Card" Type="Cardinality">2</TemplateValue>
+      <TemplateValue Name="SrcType" Type="Type">UDInt</TemplateValue>
+    </Part>
+    <Part Name="Move" UId="48" DisabledENO="true">
+      <TemplateValue Name="Card" Type="Cardinality">1</TemplateValue>
+    </Part>
+    <Part Name="Move" UId="49" DisabledENO="true">
+      <TemplateValue Name="Card" Type="Cardinality">1</TemplateValue>
+    </Part>
+    <Part Name="SCoil" UId="50" />
+  </Parts>
+  <Wires>
+    <Wire UId="51">
+      <Powerrail />
+      <NameCon UId="40" Name="pre" />
+    </Wire>
+    <Wire UId="52">
+      <IdentCon UId="21" />
+      <NameCon UId="40" Name="in1" />
+    </Wire>
+    <Wire UId="53">
+      <IdentCon UId="22" />
+      <NameCon UId="40" Name="in2" />
+    </Wire>
+    <Wire UId="54">
+      <NameCon UId="40" Name="out" />
+      <NameCon UId="41" Name="in" />
+      <NameCon UId="44" Name="in" />
+    </Wire>
+    <Wire UId="55">
+      <IdentCon UId="23" />
+      <NameCon UId="41" Name="operand" />
+    </Wire>
+    <Wire UId="56">
+      <NameCon UId="41" Name="out" />
+      <NameCon UId="42" Name="en" />
+      <NameCon UId="43" Name="in" />
+    </Wire>
+    <Wire UId="57">
+      <IdentCon UId="24" />
+      <NameCon UId="42" Name="in" />
+    </Wire>
+    <Wire UId="58">
+      <NameCon UId="42" Name="out1" />
+      <IdentCon UId="25" />
+    </Wire>
+    <Wire UId="59">
+      <IdentCon UId="26" />
+      <NameCon UId="43" Name="operand" />
+    </Wire>
+    <Wire UId="60">
+      <IdentCon UId="27" />
+      <NameCon UId="44" Name="operand" />
+    </Wire>
+    <Wire UId="61">
+      <NameCon UId="44" Name="out" />
+      <NameCon UId="45" Name="en" />
+      <NameCon UId="46" Name="en" />
+      <NameCon UId="47" Name="en" />
+      <NameCon UId="48" Name="en" />
+      <NameCon UId="49" Name="en" />
+      <NameCon UId="50" Name="in" />
+    </Wire>
+    <Wire UId="62">
+      <IdentCon UId="28" />
+      <NameCon UId="45" Name="in" />
+    </Wire>
+    <Wire UId="63">
+      <NameCon UId="45" Name="out1" />
+      <IdentCon UId="29" />
+    </Wire>
+    <Wire UId="64">
+      <IdentCon UId="30" />
+      <NameCon UId="46" Name="in" />
+    </Wire>
+    <Wire UId="65">
+      <NameCon UId="46" Name="out1" />
+      <IdentCon UId="31" />
+    </Wire>
+    <Wire UId="66">
+      <IdentCon UId="32" />
+      <NameCon UId="47" Name="in1" />
+    </Wire>
+    <Wire UId="67">
+      <IdentCon UId="33" />
+      <NameCon UId="47" Name="in2" />
+    </Wire>
+    <Wire UId="68">
+      <NameCon UId="47" Name="out" />
+      <IdentCon UId="34" />
+    </Wire>
+    <Wire UId="69">
+      <IdentCon UId="35" />
+      <NameCon UId="48" Name="in" />
+    </Wire>
+    <Wire UId="70">
+      <NameCon UId="48" Name="out1" />
+      <IdentCon UId="36" />
+    </Wire>
+    <Wire UId="71">
+      <IdentCon UId="37" />
+      <NameCon UId="49" Name="in" />
+    </Wire>
+    <Wire UId="72">
+      <NameCon UId="49" Name="out1" />
+      <IdentCon UId="38" />
+    </Wire>
+    <Wire UId="73">
+      <IdentCon UId="39" />
+      <NameCon UId="50" Name="operand" />
+    </Wire>
+  </Wires>
+</FlgNet></NetworkSource>
+          <ProgrammingLanguage>LAD</ProgrammingLanguage>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="27" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="28" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+          <MultilingualText ID="29" CompositionName="Title">
+            <ObjectList>
+              <MultilingualTextItem ID="2A" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>Data writing/reading step 6: Read data from address 204 to address 209</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Blocks.CompileUnit>
+      <SW.Blocks.CompileUnit ID="2B" CompositionName="CompileUnits">
+        <AttributeList>
+          <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v4">
+  <Parts>
+    <Access Scope="GlobalVariable" UId="21">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="Sequencer" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="22">
+      <Constant>
+        <ConstantType>USInt</ConstantType>
+        <ConstantValue>7</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="23">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="BUSY" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="24">
+      <Constant>
+        <ConstantType>USInt</ConstantType>
+        <ConstantValue>8</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="25">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="Sequencer" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="26">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="REQ" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="27">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="BUSY" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="28">
+      <Constant>
+        <ConstantType>Word</ConstantType>
+        <ConstantValue>2</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="29">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="MB_ADDR" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="30">
+      <Constant>
+        <ConstantType>USInt</ConstantType>
+        <ConstantValue>0</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="31">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="MODE" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="32">
+      <Constant>
+        <ConstantType>UDInt</ConstantType>
+        <ConstantValue>40000</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="33">
+      <Constant>
+        <ConstantType>UDInt</ConstantType>
+        <ConstantValue>212</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="34">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="DATA ADDR" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="35">
+      <Constant>
+        <ConstantType>UInt</ConstantType>
+        <ConstantValue>4</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="36">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="DATA_LEN" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="37">
+      <Symbol>
+        <Component Name="Modbus RTU buffer" />
+        <Component Name="Monitor direct I/O_H" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="38">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="DATA_PTR" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="39">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="REQ" />
+      </Symbol>
+    </Access>
+    <Part Name="Eq" UId="40">
+      <TemplateValue Name="SrcType" Type="Type">USInt</TemplateValue>
+    </Part>
+    <Part Name="Contact" UId="41" />
+    <Part Name="Move" UId="42" DisabledENO="true">
+      <TemplateValue Name="Card" Type="Cardinality">1</TemplateValue>
+    </Part>
+    <Part Name="RCoil" UId="43" />
+    <Part Name="Contact" UId="44">
+      <Negated Name="operand" />
+    </Part>
+    <Part Name="Move" UId="45" DisabledENO="true">
+      <TemplateValue Name="Card" Type="Cardinality">1</TemplateValue>
+    </Part>
+    <Part Name="Move" UId="46" DisabledENO="true">
+      <TemplateValue Name="Card" Type="Cardinality">1</TemplateValue>
+    </Part>
+    <Part Name="Add" UId="47" DisabledENO="true">
+      <TemplateValue Name="Card" Type="Cardinality">2</TemplateValue>
+      <TemplateValue Name="SrcType" Type="Type">UDInt</TemplateValue>
+    </Part>
+    <Part Name="Move" UId="48" DisabledENO="true">
+      <TemplateValue Name="Card" Type="Cardinality">1</TemplateValue>
+    </Part>
+    <Part Name="Move" UId="49" DisabledENO="true">
+      <TemplateValue Name="Card" Type="Cardinality">1</TemplateValue>
+    </Part>
+    <Part Name="SCoil" UId="50" />
+  </Parts>
+  <Wires>
+    <Wire UId="51">
+      <Powerrail />
+      <NameCon UId="40" Name="pre" />
+    </Wire>
+    <Wire UId="52">
+      <IdentCon UId="21" />
+      <NameCon UId="40" Name="in1" />
+    </Wire>
+    <Wire UId="53">
+      <IdentCon UId="22" />
+      <NameCon UId="40" Name="in2" />
+    </Wire>
+    <Wire UId="54">
+      <NameCon UId="40" Name="out" />
+      <NameCon UId="41" Name="in" />
+      <NameCon UId="44" Name="in" />
+    </Wire>
+    <Wire UId="55">
+      <IdentCon UId="23" />
+      <NameCon UId="41" Name="operand" />
+    </Wire>
+    <Wire UId="56">
+      <NameCon UId="41" Name="out" />
+      <NameCon UId="42" Name="en" />
+      <NameCon UId="43" Name="in" />
+    </Wire>
+    <Wire UId="57">
+      <IdentCon UId="24" />
+      <NameCon UId="42" Name="in" />
+    </Wire>
+    <Wire UId="58">
+      <NameCon UId="42" Name="out1" />
+      <IdentCon UId="25" />
+    </Wire>
+    <Wire UId="59">
+      <IdentCon UId="26" />
+      <NameCon UId="43" Name="operand" />
+    </Wire>
+    <Wire UId="60">
+      <IdentCon UId="27" />
+      <NameCon UId="44" Name="operand" />
+    </Wire>
+    <Wire UId="61">
+      <NameCon UId="44" Name="out" />
+      <NameCon UId="45" Name="en" />
+      <NameCon UId="46" Name="en" />
+      <NameCon UId="47" Name="en" />
+      <NameCon UId="48" Name="en" />
+      <NameCon UId="49" Name="en" />
+      <NameCon UId="50" Name="in" />
+    </Wire>
+    <Wire UId="62">
+      <IdentCon UId="28" />
+      <NameCon UId="45" Name="in" />
+    </Wire>
+    <Wire UId="63">
+      <NameCon UId="45" Name="out1" />
+      <IdentCon UId="29" />
+    </Wire>
+    <Wire UId="64">
+      <IdentCon UId="30" />
+      <NameCon UId="46" Name="in" />
+    </Wire>
+    <Wire UId="65">
+      <NameCon UId="46" Name="out1" />
+      <IdentCon UId="31" />
+    </Wire>
+    <Wire UId="66">
+      <IdentCon UId="32" />
+      <NameCon UId="47" Name="in1" />
+    </Wire>
+    <Wire UId="67">
+      <IdentCon UId="33" />
+      <NameCon UId="47" Name="in2" />
+    </Wire>
+    <Wire UId="68">
+      <NameCon UId="47" Name="out" />
+      <IdentCon UId="34" />
+    </Wire>
+    <Wire UId="69">
+      <IdentCon UId="35" />
+      <NameCon UId="48" Name="in" />
+    </Wire>
+    <Wire UId="70">
+      <NameCon UId="48" Name="out1" />
+      <IdentCon UId="36" />
+    </Wire>
+    <Wire UId="71">
+      <IdentCon UId="37" />
+      <NameCon UId="49" Name="in" />
+    </Wire>
+    <Wire UId="72">
+      <NameCon UId="49" Name="out1" />
+      <IdentCon UId="38" />
+    </Wire>
+    <Wire UId="73">
+      <IdentCon UId="39" />
+      <NameCon UId="50" Name="operand" />
+    </Wire>
+  </Wires>
+</FlgNet></NetworkSource>
+          <ProgrammingLanguage>LAD</ProgrammingLanguage>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="2C" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="2D" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+          <MultilingualText ID="2E" CompositionName="Title">
+            <ObjectList>
+              <MultilingualTextItem ID="2F" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>Data writing/reading step 7: Read data from address 212 to address 215</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Blocks.CompileUnit>
+      <SW.Blocks.CompileUnit ID="30" CompositionName="CompileUnits">
+        <AttributeList>
+          <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v4">
+  <Parts>
+    <Access Scope="GlobalVariable" UId="21">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="Sequencer" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="22">
+      <Constant>
+        <ConstantType>USInt</ConstantType>
+        <ConstantValue>8</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="23">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="BUSY" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="24">
+      <Constant>
+        <ConstantType>USInt</ConstantType>
+        <ConstantValue>9</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="25">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="Sequencer" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="26">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="REQ" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="27">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="BUSY" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="28">
+      <Constant>
+        <ConstantType>Word</ConstantType>
+        <ConstantValue>2</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="29">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="MB_ADDR" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="30">
+      <Constant>
+        <ConstantType>USInt</ConstantType>
+        <ConstantValue>0</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="31">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="MODE" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="32">
+      <Constant>
+        <ConstantType>UDInt</ConstantType>
+        <ConstantValue>40000</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="33">
+      <Constant>
+        <ConstantType>UDInt</ConstantType>
+        <ConstantValue>218</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="34">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="DATA ADDR" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="35">
+      <Constant>
+        <ConstantType>UInt</ConstantType>
+        <ConstantValue>2</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="36">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="DATA_LEN" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="37">
+      <Symbol>
+        <Component Name="Modbus RTU buffer" />
+        <Component Name="Monitor cumulative load_H" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="38">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="DATA_PTR" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="39">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="REQ" />
+      </Symbol>
+    </Access>
+    <Part Name="Eq" UId="40">
+      <TemplateValue Name="SrcType" Type="Type">USInt</TemplateValue>
+    </Part>
+    <Part Name="Contact" UId="41" />
+    <Part Name="Move" UId="42" DisabledENO="true">
+      <TemplateValue Name="Card" Type="Cardinality">1</TemplateValue>
+    </Part>
+    <Part Name="RCoil" UId="43" />
+    <Part Name="Contact" UId="44">
+      <Negated Name="operand" />
+    </Part>
+    <Part Name="Move" UId="45" DisabledENO="true">
+      <TemplateValue Name="Card" Type="Cardinality">1</TemplateValue>
+    </Part>
+    <Part Name="Move" UId="46" DisabledENO="true">
+      <TemplateValue Name="Card" Type="Cardinality">1</TemplateValue>
+    </Part>
+    <Part Name="Add" UId="47" DisabledENO="true">
+      <TemplateValue Name="Card" Type="Cardinality">2</TemplateValue>
+      <TemplateValue Name="SrcType" Type="Type">UDInt</TemplateValue>
+    </Part>
+    <Part Name="Move" UId="48" DisabledENO="true">
+      <TemplateValue Name="Card" Type="Cardinality">1</TemplateValue>
+    </Part>
+    <Part Name="Move" UId="49" DisabledENO="true">
+      <TemplateValue Name="Card" Type="Cardinality">1</TemplateValue>
+    </Part>
+    <Part Name="SCoil" UId="50" />
+  </Parts>
+  <Wires>
+    <Wire UId="51">
+      <Powerrail />
+      <NameCon UId="40" Name="pre" />
+    </Wire>
+    <Wire UId="52">
+      <IdentCon UId="21" />
+      <NameCon UId="40" Name="in1" />
+    </Wire>
+    <Wire UId="53">
+      <IdentCon UId="22" />
+      <NameCon UId="40" Name="in2" />
+    </Wire>
+    <Wire UId="54">
+      <NameCon UId="40" Name="out" />
+      <NameCon UId="41" Name="in" />
+      <NameCon UId="44" Name="in" />
+    </Wire>
+    <Wire UId="55">
+      <IdentCon UId="23" />
+      <NameCon UId="41" Name="operand" />
+    </Wire>
+    <Wire UId="56">
+      <NameCon UId="41" Name="out" />
+      <NameCon UId="42" Name="en" />
+      <NameCon UId="43" Name="in" />
+    </Wire>
+    <Wire UId="57">
+      <IdentCon UId="24" />
+      <NameCon UId="42" Name="in" />
+    </Wire>
+    <Wire UId="58">
+      <NameCon UId="42" Name="out1" />
+      <IdentCon UId="25" />
+    </Wire>
+    <Wire UId="59">
+      <IdentCon UId="26" />
+      <NameCon UId="43" Name="operand" />
+    </Wire>
+    <Wire UId="60">
+      <IdentCon UId="27" />
+      <NameCon UId="44" Name="operand" />
+    </Wire>
+    <Wire UId="61">
+      <NameCon UId="44" Name="out" />
+      <NameCon UId="45" Name="en" />
+      <NameCon UId="46" Name="en" />
+      <NameCon UId="47" Name="en" />
+      <NameCon UId="48" Name="en" />
+      <NameCon UId="49" Name="en" />
+      <NameCon UId="50" Name="in" />
+    </Wire>
+    <Wire UId="62">
+      <IdentCon UId="28" />
+      <NameCon UId="45" Name="in" />
+    </Wire>
+    <Wire UId="63">
+      <NameCon UId="45" Name="out1" />
+      <IdentCon UId="29" />
+    </Wire>
+    <Wire UId="64">
+      <IdentCon UId="30" />
+      <NameCon UId="46" Name="in" />
+    </Wire>
+    <Wire UId="65">
+      <NameCon UId="46" Name="out1" />
+      <IdentCon UId="31" />
+    </Wire>
+    <Wire UId="66">
+      <IdentCon UId="32" />
+      <NameCon UId="47" Name="in1" />
+    </Wire>
+    <Wire UId="67">
+      <IdentCon UId="33" />
+      <NameCon UId="47" Name="in2" />
+    </Wire>
+    <Wire UId="68">
+      <NameCon UId="47" Name="out" />
+      <IdentCon UId="34" />
+    </Wire>
+    <Wire UId="69">
+      <IdentCon UId="35" />
+      <NameCon UId="48" Name="in" />
+    </Wire>
+    <Wire UId="70">
+      <NameCon UId="48" Name="out1" />
+      <IdentCon UId="36" />
+    </Wire>
+    <Wire UId="71">
+      <IdentCon UId="37" />
+      <NameCon UId="49" Name="in" />
+    </Wire>
+    <Wire UId="72">
+      <NameCon UId="49" Name="out1" />
+      <IdentCon UId="38" />
+    </Wire>
+    <Wire UId="73">
+      <IdentCon UId="39" />
+      <NameCon UId="50" Name="operand" />
+    </Wire>
+  </Wires>
+</FlgNet></NetworkSource>
+          <ProgrammingLanguage>LAD</ProgrammingLanguage>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="31" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="32" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+          <MultilingualText ID="33" CompositionName="Title">
+            <ObjectList>
+              <MultilingualTextItem ID="34" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>Data writing/reading step 8: Read data from address 218 to address 219</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Blocks.CompileUnit>
+      <SW.Blocks.CompileUnit ID="35" CompositionName="CompileUnits">
+        <AttributeList>
+          <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v4">
+  <Parts>
+    <Access Scope="GlobalVariable" UId="21">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="Sequencer" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="22">
+      <Constant>
+        <ConstantType>USInt</ConstantType>
+        <ConstantValue>9</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="23">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="BUSY" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="24">
+      <Constant>
+        <ConstantType>USInt</ConstantType>
+        <ConstantValue>10</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="25">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="Sequencer" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="26">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="REQ" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="27">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="BUSY" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="28">
+      <Constant>
+        <ConstantType>Word</ConstantType>
+        <ConstantValue>2</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="29">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="MB_ADDR" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="30">
+      <Constant>
+        <ConstantType>USInt</ConstantType>
+        <ConstantValue>0</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="31">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="MODE" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="32">
+      <Constant>
+        <ConstantType>UDInt</ConstantType>
+        <ConstantValue>40000</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="33">
+      <Constant>
+        <ConstantType>UDInt</ConstantType>
+        <ConstantValue>248</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="34">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="DATA ADDR" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="35">
+      <Constant>
+        <ConstantType>UInt</ConstantType>
+        <ConstantValue>4</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="36">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="DATA_LEN" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="37">
+      <Symbol>
+        <Component Name="Modbus RTU buffer" />
+        <Component Name="Monitor driver temperature_H" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="38">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="DATA_PTR" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="39">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="REQ" />
+      </Symbol>
+    </Access>
+    <Part Name="Eq" UId="40">
+      <TemplateValue Name="SrcType" Type="Type">USInt</TemplateValue>
+    </Part>
+    <Part Name="Contact" UId="41" />
+    <Part Name="Move" UId="42" DisabledENO="true">
+      <TemplateValue Name="Card" Type="Cardinality">1</TemplateValue>
+    </Part>
+    <Part Name="RCoil" UId="43" />
+    <Part Name="Contact" UId="44">
+      <Negated Name="operand" />
+    </Part>
+    <Part Name="Move" UId="45" DisabledENO="true">
+      <TemplateValue Name="Card" Type="Cardinality">1</TemplateValue>
+    </Part>
+    <Part Name="Move" UId="46" DisabledENO="true">
+      <TemplateValue Name="Card" Type="Cardinality">1</TemplateValue>
+    </Part>
+    <Part Name="Add" UId="47" DisabledENO="true">
+      <TemplateValue Name="Card" Type="Cardinality">2</TemplateValue>
+      <TemplateValue Name="SrcType" Type="Type">UDInt</TemplateValue>
+    </Part>
+    <Part Name="Move" UId="48" DisabledENO="true">
+      <TemplateValue Name="Card" Type="Cardinality">1</TemplateValue>
+    </Part>
+    <Part Name="Move" UId="49" DisabledENO="true">
+      <TemplateValue Name="Card" Type="Cardinality">1</TemplateValue>
+    </Part>
+    <Part Name="SCoil" UId="50" />
+  </Parts>
+  <Wires>
+    <Wire UId="51">
+      <Powerrail />
+      <NameCon UId="40" Name="pre" />
+    </Wire>
+    <Wire UId="52">
+      <IdentCon UId="21" />
+      <NameCon UId="40" Name="in1" />
+    </Wire>
+    <Wire UId="53">
+      <IdentCon UId="22" />
+      <NameCon UId="40" Name="in2" />
+    </Wire>
+    <Wire UId="54">
+      <NameCon UId="40" Name="out" />
+      <NameCon UId="41" Name="in" />
+      <NameCon UId="44" Name="in" />
+    </Wire>
+    <Wire UId="55">
+      <IdentCon UId="23" />
+      <NameCon UId="41" Name="operand" />
+    </Wire>
+    <Wire UId="56">
+      <NameCon UId="41" Name="out" />
+      <NameCon UId="42" Name="en" />
+      <NameCon UId="43" Name="in" />
+    </Wire>
+    <Wire UId="57">
+      <IdentCon UId="24" />
+      <NameCon UId="42" Name="in" />
+    </Wire>
+    <Wire UId="58">
+      <NameCon UId="42" Name="out1" />
+      <IdentCon UId="25" />
+    </Wire>
+    <Wire UId="59">
+      <IdentCon UId="26" />
+      <NameCon UId="43" Name="operand" />
+    </Wire>
+    <Wire UId="60">
+      <IdentCon UId="27" />
+      <NameCon UId="44" Name="operand" />
+    </Wire>
+    <Wire UId="61">
+      <NameCon UId="44" Name="out" />
+      <NameCon UId="45" Name="en" />
+      <NameCon UId="46" Name="en" />
+      <NameCon UId="47" Name="en" />
+      <NameCon UId="48" Name="en" />
+      <NameCon UId="49" Name="en" />
+      <NameCon UId="50" Name="in" />
+    </Wire>
+    <Wire UId="62">
+      <IdentCon UId="28" />
+      <NameCon UId="45" Name="in" />
+    </Wire>
+    <Wire UId="63">
+      <NameCon UId="45" Name="out1" />
+      <IdentCon UId="29" />
+    </Wire>
+    <Wire UId="64">
+      <IdentCon UId="30" />
+      <NameCon UId="46" Name="in" />
+    </Wire>
+    <Wire UId="65">
+      <NameCon UId="46" Name="out1" />
+      <IdentCon UId="31" />
+    </Wire>
+    <Wire UId="66">
+      <IdentCon UId="32" />
+      <NameCon UId="47" Name="in1" />
+    </Wire>
+    <Wire UId="67">
+      <IdentCon UId="33" />
+      <NameCon UId="47" Name="in2" />
+    </Wire>
+    <Wire UId="68">
+      <NameCon UId="47" Name="out" />
+      <IdentCon UId="34" />
+    </Wire>
+    <Wire UId="69">
+      <IdentCon UId="35" />
+      <NameCon UId="48" Name="in" />
+    </Wire>
+    <Wire UId="70">
+      <NameCon UId="48" Name="out1" />
+      <IdentCon UId="36" />
+    </Wire>
+    <Wire UId="71">
+      <IdentCon UId="37" />
+      <NameCon UId="49" Name="in" />
+    </Wire>
+    <Wire UId="72">
+      <NameCon UId="49" Name="out1" />
+      <IdentCon UId="38" />
+    </Wire>
+    <Wire UId="73">
+      <IdentCon UId="39" />
+      <NameCon UId="50" Name="operand" />
+    </Wire>
+  </Wires>
+</FlgNet></NetworkSource>
+          <ProgrammingLanguage>LAD</ProgrammingLanguage>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="36" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="37" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+          <MultilingualText ID="38" CompositionName="Title">
+            <ObjectList>
+              <MultilingualTextItem ID="39" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>Data writing/reading step 9: Read data from address 248 to address 251</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Blocks.CompileUnit>
+      <SW.Blocks.CompileUnit ID="3A" CompositionName="CompileUnits">
+        <AttributeList>
+          <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v4">
+  <Parts>
+    <Access Scope="GlobalVariable" UId="21">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="Sequencer" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="22">
+      <Constant>
+        <ConstantType>USInt</ConstantType>
+        <ConstantValue>10</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="23">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="BUSY" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="24">
+      <Constant>
+        <ConstantType>USInt</ConstantType>
+        <ConstantValue>0</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="25">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="Sequencer" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="26">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="REQ" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="27">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="BUSY" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="28">
+      <Constant>
+        <ConstantType>Word</ConstantType>
+        <ConstantValue>2</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="29">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="MB_ADDR" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="30">
+      <Constant>
+        <ConstantType>USInt</ConstantType>
+        <ConstantValue>0</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="31">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="MODE" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="32">
+      <Constant>
+        <ConstantType>UDInt</ConstantType>
+        <ConstantValue>40000</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="33">
+      <Constant>
+        <ConstantType>UDInt</ConstantType>
+        <ConstantValue>326</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="34">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="DATA ADDR" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="35">
+      <Constant>
+        <ConstantType>UInt</ConstantType>
+        <ConstantValue>10</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="36">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="DATA_LEN" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="37">
+      <Symbol>
+        <Component Name="Modbus RTU buffer" />
+        <Component Name="Monitor inverter voltage_H" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="38">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="DATA_PTR" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="39">
+      <Symbol>
+        <Component Name="Modbus RTU comm" />
+        <Component Name="REQ" />
+      </Symbol>
+    </Access>
+    <Part Name="Eq" UId="40">
+      <TemplateValue Name="SrcType" Type="Type">USInt</TemplateValue>
+    </Part>
+    <Part Name="Contact" UId="41" />
+    <Part Name="Move" UId="42" DisabledENO="true">
+      <TemplateValue Name="Card" Type="Cardinality">1</TemplateValue>
+    </Part>
+    <Part Name="RCoil" UId="43" />
+    <Part Name="Contact" UId="44">
+      <Negated Name="operand" />
+    </Part>
+    <Part Name="Move" UId="45" DisabledENO="true">
+      <TemplateValue Name="Card" Type="Cardinality">1</TemplateValue>
+    </Part>
+    <Part Name="Move" UId="46" DisabledENO="true">
+      <TemplateValue Name="Card" Type="Cardinality">1</TemplateValue>
+    </Part>
+    <Part Name="Add" UId="47" DisabledENO="true">
+      <TemplateValue Name="Card" Type="Cardinality">2</TemplateValue>
+      <TemplateValue Name="SrcType" Type="Type">UDInt</TemplateValue>
+    </Part>
+    <Part Name="Move" UId="48" DisabledENO="true">
+      <TemplateValue Name="Card" Type="Cardinality">1</TemplateValue>
+    </Part>
+    <Part Name="Move" UId="49" DisabledENO="true">
+      <TemplateValue Name="Card" Type="Cardinality">1</TemplateValue>
+    </Part>
+    <Part Name="SCoil" UId="50" />
+  </Parts>
+  <Wires>
+    <Wire UId="51">
+      <Powerrail />
+      <NameCon UId="40" Name="pre" />
+    </Wire>
+    <Wire UId="52">
+      <IdentCon UId="21" />
+      <NameCon UId="40" Name="in1" />
+    </Wire>
+    <Wire UId="53">
+      <IdentCon UId="22" />
+      <NameCon UId="40" Name="in2" />
+    </Wire>
+    <Wire UId="54">
+      <NameCon UId="40" Name="out" />
+      <NameCon UId="41" Name="in" />
+      <NameCon UId="44" Name="in" />
+    </Wire>
+    <Wire UId="55">
+      <IdentCon UId="23" />
+      <NameCon UId="41" Name="operand" />
+    </Wire>
+    <Wire UId="56">
+      <NameCon UId="41" Name="out" />
+      <NameCon UId="42" Name="en" />
+      <NameCon UId="43" Name="in" />
+    </Wire>
+    <Wire UId="57">
+      <IdentCon UId="24" />
+      <NameCon UId="42" Name="in" />
+    </Wire>
+    <Wire UId="58">
+      <NameCon UId="42" Name="out1" />
+      <IdentCon UId="25" />
+    </Wire>
+    <Wire UId="59">
+      <IdentCon UId="26" />
+      <NameCon UId="43" Name="operand" />
+    </Wire>
+    <Wire UId="60">
+      <IdentCon UId="27" />
+      <NameCon UId="44" Name="operand" />
+    </Wire>
+    <Wire UId="61">
+      <NameCon UId="44" Name="out" />
+      <NameCon UId="45" Name="en" />
+      <NameCon UId="46" Name="en" />
+      <NameCon UId="47" Name="en" />
+      <NameCon UId="48" Name="en" />
+      <NameCon UId="49" Name="en" />
+      <NameCon UId="50" Name="in" />
+    </Wire>
+    <Wire UId="62">
+      <IdentCon UId="28" />
+      <NameCon UId="45" Name="in" />
+    </Wire>
+    <Wire UId="63">
+      <NameCon UId="45" Name="out1" />
+      <IdentCon UId="29" />
+    </Wire>
+    <Wire UId="64">
+      <IdentCon UId="30" />
+      <NameCon UId="46" Name="in" />
+    </Wire>
+    <Wire UId="65">
+      <NameCon UId="46" Name="out1" />
+      <IdentCon UId="31" />
+    </Wire>
+    <Wire UId="66">
+      <IdentCon UId="32" />
+      <NameCon UId="47" Name="in1" />
+    </Wire>
+    <Wire UId="67">
+      <IdentCon UId="33" />
+      <NameCon UId="47" Name="in2" />
+    </Wire>
+    <Wire UId="68">
+      <NameCon UId="47" Name="out" />
+      <IdentCon UId="34" />
+    </Wire>
+    <Wire UId="69">
+      <IdentCon UId="35" />
+      <NameCon UId="48" Name="in" />
+    </Wire>
+    <Wire UId="70">
+      <NameCon UId="48" Name="out1" />
+      <IdentCon UId="36" />
+    </Wire>
+    <Wire UId="71">
+      <IdentCon UId="37" />
+      <NameCon UId="49" Name="in" />
+    </Wire>
+    <Wire UId="72">
+      <NameCon UId="49" Name="out1" />
+      <IdentCon UId="38" />
+    </Wire>
+    <Wire UId="73">
+      <IdentCon UId="39" />
+      <NameCon UId="50" Name="operand" />
+    </Wire>
+  </Wires>
+</FlgNet></NetworkSource>
+          <ProgrammingLanguage>LAD</ProgrammingLanguage>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="3B" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="3C" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+          <MultilingualText ID="3D" CompositionName="Title">
+            <ObjectList>
+              <MultilingualTextItem ID="3E" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>Data writing/reading step 10: Read data from address 326 to address 335</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Blocks.CompileUnit>
+      <SW.Blocks.CompileUnit ID="3F" CompositionName="CompileUnits">
+        <AttributeList>
+          <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v4">
+  <Parts>
+    <Access Scope="GlobalVariable" UId="21">
+      <Symbol>
+        <Component Name="Modbus RTU buffer" />
+        <Component Name="Monitor present alarm_L" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="22">
+      <Symbol>
+        <Component Name="Modbus RTU buffer" />
+        <Component Name="Monitor present alarm_H" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="23">
+      <Symbol>
+        <Component Name="Modbus RTU buffer" />
+        <Component Name="Monitor alarm history 1_L" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="24">
+      <Symbol>
+        <Component Name="Modbus RTU buffer" />
+        <Component Name="Monitor alarm history 1_H" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="25">
+      <Symbol>
+        <Component Name="Modbus RTU buffer" />
+        <Component Name="Monitor alarm history 2_L" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="26">
+      <Symbol>
+        <Component Name="Modbus RTU buffer" />
+        <Component Name="Monitor alarm history 2_H" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="27">
+      <Symbol>
+        <Component Name="Modbus RTU buffer" />
+        <Component Name="Monitor alarm history 3_L" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="28">
+      <Symbol>
+        <Component Name="Modbus RTU buffer" />
+        <Component Name="Monitor alarm history 3_H" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="29">
+      <Symbol>
+        <Component Name="Modbus RTU buffer" />
+        <Component Name="Monitor alarm history 4_L" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="30">
+      <Symbol>
+        <Component Name="Modbus RTU buffer" />
+        <Component Name="Monitor alarm history 4_H" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="31">
+      <Symbol>
+        <Component Name="Modbus RTU buffer" />
+        <Component Name="Monitor alarm history 5_L" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="32">
+      <Symbol>
+        <Component Name="Modbus RTU buffer" />
+        <Component Name="Monitor alarm history 5_H" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="33">
+      <Symbol>
+        <Component Name="Modbus RTU buffer" />
+        <Component Name="Monitor present communication error_L" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="34">
+      <Symbol>
+        <Component Name="Modbus RTU buffer" />
+        <Component Name="Monitor present communication error_H" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="35">
+      <Symbol>
+        <Component Name="Modbus RTU buffer" />
+        <Component Name="Monitor communication error history 1_L" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="36">
+      <Symbol>
+        <Component Name="Modbus RTU buffer" />
+        <Component Name="Monitor communication error history 1_H" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="37">
+      <Symbol>
+        <Component Name="Modbus RTU buffer" />
+        <Component Name="Monitor communication error history 2_L" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="38">
+      <Symbol>
+        <Component Name="Modbus RTU buffer" />
+        <Component Name="Monitor communication error history 2_H" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="39">
+      <Symbol>
+        <Component Name="Modbus RTU buffer" />
+        <Component Name="Monitor communication error history 3_L" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="40">
+      <Symbol>
+        <Component Name="Modbus RTU buffer" />
+        <Component Name="Monitor communication error history 3_H" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="41">
+      <Symbol>
+        <Component Name="Modbus RTU buffer" />
+        <Component Name="Monitor communication error history 4_L" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="42">
+      <Symbol>
+        <Component Name="Modbus RTU buffer" />
+        <Component Name="Monitor communication error history 4_H" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="43">
+      <Symbol>
+        <Component Name="Modbus RTU buffer" />
+        <Component Name="Monitor communication error history 5_L" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="44">
+      <Symbol>
+        <Component Name="Modbus RTU buffer" />
+        <Component Name="Monitor communication error history 5_H" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="45">
+      <Symbol>
+        <Component Name="Modbus RTU buffer" />
+        <Component Name="Monitor feedback position_L" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="46">
+      <Symbol>
+        <Component Name="Modbus RTU buffer" />
+        <Component Name="Monitor feedback position_H" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="47">
+      <Symbol>
+        <Component Name="Modbus RTU buffer" />
+        <Component Name="Monitor feedback speed r/min_L" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="48">
+      <Symbol>
+        <Component Name="Modbus RTU buffer" />
+        <Component Name="Monitor feedback speed r/min_H" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="49">
+      <Symbol>
+        <Component Name="Modbus RTU buffer" />
+        <Component Name="Monitor feedback speed Hz_L" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="50">
+      <Symbol>
+        <Component Name="Modbus RTU buffer" />
+        <Component Name="Monitor feedback speed Hz_H" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="51">
+      <Symbol>
+        <Component Name="Modbus RTU buffer" />
+        <Component Name="Monitor direct I/O_L" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="52">
+      <Symbol>
+        <Component Name="Modbus RTU buffer" />
+        <Component Name="Monitor direct I/O_H" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="53">
+      <Symbol>
+        <Component Name="Modbus RTU buffer" />
+        <Component Name="Monitor torque_L" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="54">
+      <Symbol>
+        <Component Name="Modbus RTU buffer" />
+        <Component Name="Monitor torque_H" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="55">
+      <Symbol>
+        <Component Name="Modbus RTU buffer" />
+        <Component Name="Monitor cumulative load_L" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="56">
+      <Symbol>
+        <Component Name="Modbus RTU buffer" />
+        <Component Name="Monitor cumulative load_H" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="57">
+      <Symbol>
+        <Component Name="Modbus RTU buffer" />
+        <Component Name="Monitor driver temperature_L" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="58">
+      <Symbol>
+        <Component Name="Modbus RTU buffer" />
+        <Component Name="Monitor driver temperature_H" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="59">
+      <Symbol>
+        <Component Name="Modbus RTU buffer" />
+        <Component Name="Monitor motor temperature_L" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="60">
+      <Symbol>
+        <Component Name="Modbus RTU buffer" />
+        <Component Name="Monitor motor temperature_H" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="61">
+      <Symbol>
+        <Component Name="Modbus RTU buffer" />
+        <Component Name="Monitor inverter voltage_L" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="62">
+      <Symbol>
+        <Component Name="Modbus RTU buffer" />
+        <Component Name="Monitor inverter voltage_H" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="63">
+      <Symbol>
+        <Component Name="Modbus RTU buffer" />
+        <Component Name="Monitor power supply voltage_L" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="64">
+      <Symbol>
+        <Component Name="Modbus RTU buffer" />
+        <Component Name="Monitor power supply voltage_H" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="65">
+      <Symbol>
+        <Component Name="Modbus RTU buffer" />
+        <Component Name="Monitor DIP SW_L" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="66">
+      <Symbol>
+        <Component Name="Modbus RTU buffer" />
+        <Component Name="Monitor DIP SW_H" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="67">
+      <Symbol>
+        <Component Name="Modbus RTU buffer" />
+        <Component Name="Monitor ROT SW0_L" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="68">
+      <Symbol>
+        <Component Name="Modbus RTU buffer" />
+        <Component Name="Monitor ROT SW0_H" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="69">
+      <Symbol>
+        <Component Name="Modbus RTU buffer" />
+        <Component Name="Monitor ROT SW1_L" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="70">
+      <Symbol>
+        <Component Name="Modbus RTU buffer" />
+        <Component Name="Monitor ROT SW1_H" />
+      </Symbol>
+    </Access>
+    <Call UId="71">
+      <CallInfo Name="Concatenate two UInt into one UDInt" BlockType="FB">
+        <Instance Scope="LocalVariable" UId="72">
+          <Component Name="Monitor present alarm" />
+        </Instance>
+        <Parameter Name="Register low" Section="Input" Type="UInt" />
+        <Parameter Name="Register high" Section="Input" Type="UInt" />
+      </CallInfo>
+    </Call>
+    <Call UId="73">
+      <CallInfo Name="Concatenate two UInt into one UDInt" BlockType="FB">
+        <Instance Scope="LocalVariable" UId="74">
+          <Component Name="Monitor alarm history 1" />
+        </Instance>
+        <Parameter Name="Register low" Section="Input" Type="UInt" />
+        <Parameter Name="Register high" Section="Input" Type="UInt" />
+      </CallInfo>
+    </Call>
+    <Call UId="75">
+      <CallInfo Name="Concatenate two UInt into one UDInt" BlockType="FB">
+        <Instance Scope="LocalVariable" UId="76">
+          <Component Name="Monitor alarm history 2" />
+        </Instance>
+        <Parameter Name="Register low" Section="Input" Type="UInt" />
+        <Parameter Name="Register high" Section="Input" Type="UInt" />
+      </CallInfo>
+    </Call>
+    <Call UId="77">
+      <CallInfo Name="Concatenate two UInt into one UDInt" BlockType="FB">
+        <Instance Scope="LocalVariable" UId="78">
+          <Component Name="Monitor alarm history 3" />
+        </Instance>
+        <Parameter Name="Register low" Section="Input" Type="UInt" />
+        <Parameter Name="Register high" Section="Input" Type="UInt" />
+      </CallInfo>
+    </Call>
+    <Call UId="79">
+      <CallInfo Name="Concatenate two UInt into one UDInt" BlockType="FB">
+        <Instance Scope="LocalVariable" UId="80">
+          <Component Name="Monitor alarm history 4" />
+        </Instance>
+        <Parameter Name="Register low" Section="Input" Type="UInt" />
+        <Parameter Name="Register high" Section="Input" Type="UInt" />
+      </CallInfo>
+    </Call>
+    <Call UId="81">
+      <CallInfo Name="Concatenate two UInt into one UDInt" BlockType="FB">
+        <Instance Scope="LocalVariable" UId="82">
+          <Component Name="Monitor alarm history 5" />
+        </Instance>
+        <Parameter Name="Register low" Section="Input" Type="UInt" />
+        <Parameter Name="Register high" Section="Input" Type="UInt" />
+      </CallInfo>
+    </Call>
+    <Call UId="83">
+      <CallInfo Name="Concatenate two UInt into one UDInt" BlockType="FB">
+        <Instance Scope="LocalVariable" UId="84">
+          <Component Name="Monitor present communication error" />
+        </Instance>
+        <Parameter Name="Register low" Section="Input" Type="UInt" />
+        <Parameter Name="Register high" Section="Input" Type="UInt" />
+      </CallInfo>
+    </Call>
+    <Call UId="85">
+      <CallInfo Name="Concatenate two UInt into one UDInt" BlockType="FB">
+        <Instance Scope="LocalVariable" UId="86">
+          <Component Name="Monitor communication error history 1" />
+        </Instance>
+        <Parameter Name="Register low" Section="Input" Type="UInt" />
+        <Parameter Name="Register high" Section="Input" Type="UInt" />
+      </CallInfo>
+    </Call>
+    <Call UId="87">
+      <CallInfo Name="Concatenate two UInt into one UDInt" BlockType="FB">
+        <Instance Scope="LocalVariable" UId="88">
+          <Component Name="Monitor communication error history 2" />
+        </Instance>
+        <Parameter Name="Register low" Section="Input" Type="UInt" />
+        <Parameter Name="Register high" Section="Input" Type="UInt" />
+      </CallInfo>
+    </Call>
+    <Call UId="89">
+      <CallInfo Name="Concatenate two UInt into one UDInt" BlockType="FB">
+        <Instance Scope="LocalVariable" UId="90">
+          <Component Name="Monitor communication error history 3" />
+        </Instance>
+        <Parameter Name="Register low" Section="Input" Type="UInt" />
+        <Parameter Name="Register high" Section="Input" Type="UInt" />
+      </CallInfo>
+    </Call>
+    <Call UId="91">
+      <CallInfo Name="Concatenate two UInt into one UDInt" BlockType="FB">
+        <Instance Scope="LocalVariable" UId="92">
+          <Component Name="Monitor communication error history 4" />
+        </Instance>
+        <Parameter Name="Register low" Section="Input" Type="UInt" />
+        <Parameter Name="Register high" Section="Input" Type="UInt" />
+      </CallInfo>
+    </Call>
+    <Call UId="93">
+      <CallInfo Name="Concatenate two UInt into one UDInt" BlockType="FB">
+        <Instance Scope="LocalVariable" UId="94">
+          <Component Name="Monitor communication error history 5" />
+        </Instance>
+        <Parameter Name="Register low" Section="Input" Type="UInt" />
+        <Parameter Name="Register high" Section="Input" Type="UInt" />
+      </CallInfo>
+    </Call>
+    <Call UId="95">
+      <CallInfo Name="Concatenate two UInt into one UDInt" BlockType="FB">
+        <Instance Scope="LocalVariable" UId="96">
+          <Component Name="Monitor feedback position" />
+        </Instance>
+        <Parameter Name="Register low" Section="Input" Type="UInt" />
+        <Parameter Name="Register high" Section="Input" Type="UInt" />
+      </CallInfo>
+    </Call>
+    <Call UId="97">
+      <CallInfo Name="Concatenate two UInt into one UDInt" BlockType="FB">
+        <Instance Scope="LocalVariable" UId="98">
+          <Component Name="Monitor feedback speed r/min" />
+        </Instance>
+        <Parameter Name="Register low" Section="Input" Type="UInt" />
+        <Parameter Name="Register high" Section="Input" Type="UInt" />
+      </CallInfo>
+    </Call>
+    <Call UId="99">
+      <CallInfo Name="Concatenate two UInt into one UDInt" BlockType="FB">
+        <Instance Scope="LocalVariable" UId="100">
+          <Component Name="Monitor feedback speed Hz" />
+        </Instance>
+        <Parameter Name="Register low" Section="Input" Type="UInt" />
+        <Parameter Name="Register high" Section="Input" Type="UInt" />
+      </CallInfo>
+    </Call>
+    <Call UId="101">
+      <CallInfo Name="Concatenate two UInt into one UDInt" BlockType="FB">
+        <Instance Scope="LocalVariable" UId="102">
+          <Component Name="Monitor direct I/O" />
+        </Instance>
+        <Parameter Name="Register low" Section="Input" Type="UInt" />
+        <Parameter Name="Register high" Section="Input" Type="UInt" />
+      </CallInfo>
+    </Call>
+    <Call UId="103">
+      <CallInfo Name="Concatenate two UInt into one UDInt" BlockType="FB">
+        <Instance Scope="LocalVariable" UId="104">
+          <Component Name="Monitor torque" />
+        </Instance>
+        <Parameter Name="Register low" Section="Input" Type="UInt" />
+        <Parameter Name="Register high" Section="Input" Type="UInt" />
+      </CallInfo>
+    </Call>
+    <Call UId="105">
+      <CallInfo Name="Concatenate two UInt into one UDInt" BlockType="FB">
+        <Instance Scope="LocalVariable" UId="106">
+          <Component Name="Monitor cumulative load" />
+        </Instance>
+        <Parameter Name="Register low" Section="Input" Type="UInt" />
+        <Parameter Name="Register high" Section="Input" Type="UInt" />
+      </CallInfo>
+    </Call>
+    <Call UId="107">
+      <CallInfo Name="Concatenate two UInt into one UDInt" BlockType="FB">
+        <Instance Scope="LocalVariable" UId="108">
+          <Component Name="Monitor driver temperature" />
+        </Instance>
+        <Parameter Name="Register low" Section="Input" Type="UInt" />
+        <Parameter Name="Register high" Section="Input" Type="UInt" />
+      </CallInfo>
+    </Call>
+    <Call UId="109">
+      <CallInfo Name="Concatenate two UInt into one UDInt" BlockType="FB">
+        <Instance Scope="LocalVariable" UId="110">
+          <Component Name="Monitor motor temperature" />
+        </Instance>
+        <Parameter Name="Register low" Section="Input" Type="UInt" />
+        <Parameter Name="Register high" Section="Input" Type="UInt" />
+      </CallInfo>
+    </Call>
+    <Call UId="111">
+      <CallInfo Name="Concatenate two UInt into one UDInt" BlockType="FB">
+        <Instance Scope="LocalVariable" UId="112">
+          <Component Name="Monitor inverter voltage" />
+        </Instance>
+        <Parameter Name="Register low" Section="Input" Type="UInt" />
+        <Parameter Name="Register high" Section="Input" Type="UInt" />
+      </CallInfo>
+    </Call>
+    <Call UId="113">
+      <CallInfo Name="Concatenate two UInt into one UDInt" BlockType="FB">
+        <Instance Scope="LocalVariable" UId="114">
+          <Component Name="Monitor power supply voltage" />
+        </Instance>
+        <Parameter Name="Register low" Section="Input" Type="UInt" />
+        <Parameter Name="Register high" Section="Input" Type="UInt" />
+      </CallInfo>
+    </Call>
+    <Call UId="115">
+      <CallInfo Name="Concatenate two UInt into one UDInt" BlockType="FB">
+        <Instance Scope="LocalVariable" UId="116">
+          <Component Name="Monitor DIP SW" />
+        </Instance>
+        <Parameter Name="Register low" Section="Input" Type="UInt" />
+        <Parameter Name="Register high" Section="Input" Type="UInt" />
+      </CallInfo>
+    </Call>
+    <Call UId="117">
+      <CallInfo Name="Concatenate two UInt into one UDInt" BlockType="FB">
+        <Instance Scope="LocalVariable" UId="118">
+          <Component Name="Monitor ROT SW0" />
+        </Instance>
+        <Parameter Name="Register low" Section="Input" Type="UInt" />
+        <Parameter Name="Register high" Section="Input" Type="UInt" />
+      </CallInfo>
+    </Call>
+    <Call UId="119">
+      <CallInfo Name="Concatenate two UInt into one UDInt" BlockType="FB">
+        <Instance Scope="LocalVariable" UId="120">
+          <Component Name="Monitor ROT SW1" />
+        </Instance>
+        <Parameter Name="Register low" Section="Input" Type="UInt" />
+        <Parameter Name="Register high" Section="Input" Type="UInt" />
+      </CallInfo>
+    </Call>
+  </Parts>
+  <Wires>
+    <Wire UId="121">
+      <Powerrail />
+      <NameCon UId="71" Name="en" />
+      <NameCon UId="73" Name="en" />
+      <NameCon UId="75" Name="en" />
+      <NameCon UId="77" Name="en" />
+      <NameCon UId="79" Name="en" />
+      <NameCon UId="81" Name="en" />
+      <NameCon UId="83" Name="en" />
+      <NameCon UId="85" Name="en" />
+      <NameCon UId="87" Name="en" />
+      <NameCon UId="89" Name="en" />
+      <NameCon UId="91" Name="en" />
+      <NameCon UId="93" Name="en" />
+      <NameCon UId="95" Name="en" />
+      <NameCon UId="97" Name="en" />
+      <NameCon UId="99" Name="en" />
+      <NameCon UId="101" Name="en" />
+      <NameCon UId="103" Name="en" />
+      <NameCon UId="105" Name="en" />
+      <NameCon UId="107" Name="en" />
+      <NameCon UId="109" Name="en" />
+      <NameCon UId="111" Name="en" />
+      <NameCon UId="113" Name="en" />
+      <NameCon UId="115" Name="en" />
+      <NameCon UId="117" Name="en" />
+      <NameCon UId="119" Name="en" />
+    </Wire>
+    <Wire UId="122">
+      <IdentCon UId="21" />
+      <NameCon UId="71" Name="Register low" />
+    </Wire>
+    <Wire UId="123">
+      <IdentCon UId="22" />
+      <NameCon UId="71" Name="Register high" />
+    </Wire>
+    <Wire UId="124">
+      <IdentCon UId="23" />
+      <NameCon UId="73" Name="Register low" />
+    </Wire>
+    <Wire UId="125">
+      <IdentCon UId="24" />
+      <NameCon UId="73" Name="Register high" />
+    </Wire>
+    <Wire UId="126">
+      <IdentCon UId="25" />
+      <NameCon UId="75" Name="Register low" />
+    </Wire>
+    <Wire UId="127">
+      <IdentCon UId="26" />
+      <NameCon UId="75" Name="Register high" />
+    </Wire>
+    <Wire UId="128">
+      <IdentCon UId="27" />
+      <NameCon UId="77" Name="Register low" />
+    </Wire>
+    <Wire UId="129">
+      <IdentCon UId="28" />
+      <NameCon UId="77" Name="Register high" />
+    </Wire>
+    <Wire UId="130">
+      <IdentCon UId="29" />
+      <NameCon UId="79" Name="Register low" />
+    </Wire>
+    <Wire UId="131">
+      <IdentCon UId="30" />
+      <NameCon UId="79" Name="Register high" />
+    </Wire>
+    <Wire UId="132">
+      <IdentCon UId="31" />
+      <NameCon UId="81" Name="Register low" />
+    </Wire>
+    <Wire UId="133">
+      <IdentCon UId="32" />
+      <NameCon UId="81" Name="Register high" />
+    </Wire>
+    <Wire UId="134">
+      <IdentCon UId="33" />
+      <NameCon UId="83" Name="Register low" />
+    </Wire>
+    <Wire UId="135">
+      <IdentCon UId="34" />
+      <NameCon UId="83" Name="Register high" />
+    </Wire>
+    <Wire UId="136">
+      <IdentCon UId="35" />
+      <NameCon UId="85" Name="Register low" />
+    </Wire>
+    <Wire UId="137">
+      <IdentCon UId="36" />
+      <NameCon UId="85" Name="Register high" />
+    </Wire>
+    <Wire UId="138">
+      <IdentCon UId="37" />
+      <NameCon UId="87" Name="Register low" />
+    </Wire>
+    <Wire UId="139">
+      <IdentCon UId="38" />
+      <NameCon UId="87" Name="Register high" />
+    </Wire>
+    <Wire UId="140">
+      <IdentCon UId="39" />
+      <NameCon UId="89" Name="Register low" />
+    </Wire>
+    <Wire UId="141">
+      <IdentCon UId="40" />
+      <NameCon UId="89" Name="Register high" />
+    </Wire>
+    <Wire UId="142">
+      <IdentCon UId="41" />
+      <NameCon UId="91" Name="Register low" />
+    </Wire>
+    <Wire UId="143">
+      <IdentCon UId="42" />
+      <NameCon UId="91" Name="Register high" />
+    </Wire>
+    <Wire UId="144">
+      <IdentCon UId="43" />
+      <NameCon UId="93" Name="Register low" />
+    </Wire>
+    <Wire UId="145">
+      <IdentCon UId="44" />
+      <NameCon UId="93" Name="Register high" />
+    </Wire>
+    <Wire UId="146">
+      <IdentCon UId="45" />
+      <NameCon UId="95" Name="Register low" />
+    </Wire>
+    <Wire UId="147">
+      <IdentCon UId="46" />
+      <NameCon UId="95" Name="Register high" />
+    </Wire>
+    <Wire UId="148">
+      <IdentCon UId="47" />
+      <NameCon UId="97" Name="Register low" />
+    </Wire>
+    <Wire UId="149">
+      <IdentCon UId="48" />
+      <NameCon UId="97" Name="Register high" />
+    </Wire>
+    <Wire UId="150">
+      <IdentCon UId="49" />
+      <NameCon UId="99" Name="Register low" />
+    </Wire>
+    <Wire UId="151">
+      <IdentCon UId="50" />
+      <NameCon UId="99" Name="Register high" />
+    </Wire>
+    <Wire UId="152">
+      <IdentCon UId="51" />
+      <NameCon UId="101" Name="Register low" />
+    </Wire>
+    <Wire UId="153">
+      <IdentCon UId="52" />
+      <NameCon UId="101" Name="Register high" />
+    </Wire>
+    <Wire UId="154">
+      <IdentCon UId="53" />
+      <NameCon UId="103" Name="Register low" />
+    </Wire>
+    <Wire UId="155">
+      <IdentCon UId="54" />
+      <NameCon UId="103" Name="Register high" />
+    </Wire>
+    <Wire UId="156">
+      <IdentCon UId="55" />
+      <NameCon UId="105" Name="Register low" />
+    </Wire>
+    <Wire UId="157">
+      <IdentCon UId="56" />
+      <NameCon UId="105" Name="Register high" />
+    </Wire>
+    <Wire UId="158">
+      <IdentCon UId="57" />
+      <NameCon UId="107" Name="Register low" />
+    </Wire>
+    <Wire UId="159">
+      <IdentCon UId="58" />
+      <NameCon UId="107" Name="Register high" />
+    </Wire>
+    <Wire UId="160">
+      <IdentCon UId="59" />
+      <NameCon UId="109" Name="Register low" />
+    </Wire>
+    <Wire UId="161">
+      <IdentCon UId="60" />
+      <NameCon UId="109" Name="Register high" />
+    </Wire>
+    <Wire UId="162">
+      <IdentCon UId="61" />
+      <NameCon UId="111" Name="Register low" />
+    </Wire>
+    <Wire UId="163">
+      <IdentCon UId="62" />
+      <NameCon UId="111" Name="Register high" />
+    </Wire>
+    <Wire UId="164">
+      <IdentCon UId="63" />
+      <NameCon UId="113" Name="Register low" />
+    </Wire>
+    <Wire UId="165">
+      <IdentCon UId="64" />
+      <NameCon UId="113" Name="Register high" />
+    </Wire>
+    <Wire UId="166">
+      <IdentCon UId="65" />
+      <NameCon UId="115" Name="Register low" />
+    </Wire>
+    <Wire UId="167">
+      <IdentCon UId="66" />
+      <NameCon UId="115" Name="Register high" />
+    </Wire>
+    <Wire UId="168">
+      <IdentCon UId="67" />
+      <NameCon UId="117" Name="Register low" />
+    </Wire>
+    <Wire UId="169">
+      <IdentCon UId="68" />
+      <NameCon UId="117" Name="Register high" />
+    </Wire>
+    <Wire UId="170">
+      <IdentCon UId="69" />
+      <NameCon UId="119" Name="Register low" />
+    </Wire>
+    <Wire UId="171">
+      <IdentCon UId="70" />
+      <NameCon UId="119" Name="Register high" />
+    </Wire>
+  </Wires>
+</FlgNet></NetworkSource>
+          <ProgrammingLanguage>LAD</ProgrammingLanguage>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="40" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="41" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+          <MultilingualText ID="42" CompositionName="Title">
+            <ObjectList>
+              <MultilingualTextItem ID="43" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>Concatenate data read from modbus holding registers into individual registers</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Blocks.CompileUnit>
+      <MultilingualText ID="44" CompositionName="Title">
+        <ObjectList>
+          <MultilingualTextItem ID="45" CompositionName="Items">
+            <AttributeList>
+              <Culture>en-US</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+    </ObjectList>
+  </SW.Blocks.FB>
+</Document>

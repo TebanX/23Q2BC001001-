@@ -1,0 +1,24 @@
+﻿FUNCTION_BLOCK "Concatenate two UInt into one UDInt"
+{ S7_Optimized_Access := 'TRUE' }
+VERSION : 0.1
+   VAR_INPUT 
+      "Register low" { ExternalAccessible := 'False'; ExternalVisible := 'False'; ExternalWritable := 'False'} : UInt;
+      "Register high" { ExternalAccessible := 'False'; ExternalVisible := 'False'; ExternalWritable := 'False'} : UInt;
+   END_VAR
+
+   VAR 
+      Register { ExternalAccessible := 'False'; ExternalVisible := 'False'; ExternalWritable := 'False'} : UDInt;
+   END_VAR
+
+   VAR_TEMP 
+      Temp : UDInt;
+   END_VAR
+
+
+BEGIN
+	#Temp := UINT_TO_UDINT(#"Register low");
+	#Register := #Temp;
+	#Temp := UINT_TO_UDINT(#"Register high");
+	#Register:= #Register OR #Temp;
+END_FUNCTION_BLOCK
+

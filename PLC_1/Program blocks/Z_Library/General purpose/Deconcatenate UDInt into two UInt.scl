@@ -1,0 +1,23 @@
+﻿FUNCTION_BLOCK "Deconcatenate UDInt into two UInt"
+{ S7_Optimized_Access := 'TRUE' }
+VERSION : 0.1
+   VAR_OUTPUT 
+      Register_L : UInt;
+      Register_H { ExternalAccessible := 'False'; ExternalVisible := 'False'; ExternalWritable := 'False'} : UInt;
+   END_VAR
+
+   VAR 
+      Register : UDInt;
+   END_VAR
+
+   VAR_TEMP 
+      Temp : UDInt;
+   END_VAR
+
+
+BEGIN
+	#Register_L := UDINT_TO_UINT(#Register);
+	#Temp := SHR_UDINT(IN := #Temp, N := 16);
+	#Register_H := UDINT_TO_UINT(#Temp); 
+END_FUNCTION_BLOCK
+
